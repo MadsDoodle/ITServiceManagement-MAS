@@ -81,3 +81,1315 @@
 2026-05-25T20:36:14 | app | INFO | {"timestamp": "2026-05-25T15:06:14.934136", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 10.21}
 2026-05-25T20:36:14 | app | INFO | {"timestamp": "2026-05-25T15:06:14.955649", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 4.48}
 2026-05-25T20:36:14 | app | INFO | {"timestamp": "2026-05-25T15:06:14.965825", "event": "http_request", "method": "GET", "path": "/metrics/history", "status_code": 200, "duration_ms": 3.38}
+2026-05-25T21:41:07 | app | INFO | {"timestamp": "2026-05-25T16:11:07.551039", "event": "app_shutdown"}
+2026-05-25T21:41:08 | app | INFO | {"timestamp": "2026-05-25T16:11:08.430719", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:10 | app | INFO | {"timestamp": "2026-05-25T16:11:10.957956", "event": "app_shutdown"}
+2026-05-25T21:41:11 | app | INFO | {"timestamp": "2026-05-25T16:11:11.548088", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:12 | app | INFO | {"timestamp": "2026-05-25T16:11:12.357376", "event": "app_shutdown"}
+2026-05-25T21:41:12 | app | INFO | {"timestamp": "2026-05-25T16:11:12.910829", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:13 | app | INFO | {"timestamp": "2026-05-25T16:11:13.719683", "event": "app_shutdown"}
+2026-05-25T21:41:14 | app | INFO | {"timestamp": "2026-05-25T16:11:14.305874", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:15 | app | INFO | {"timestamp": "2026-05-25T16:11:15.821556", "event": "app_shutdown"}
+2026-05-25T21:41:16 | app | INFO | {"timestamp": "2026-05-25T16:11:16.372058", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:17 | app | INFO | {"timestamp": "2026-05-25T16:11:17.180919", "event": "app_shutdown"}
+2026-05-25T21:41:17 | app | INFO | {"timestamp": "2026-05-25T16:11:17.772448", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:19 | app | INFO | {"timestamp": "2026-05-25T16:11:19.185884", "event": "app_shutdown"}
+2026-05-25T21:41:19 | app | INFO | {"timestamp": "2026-05-25T16:11:19.868731", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:20 | app | INFO | {"timestamp": "2026-05-25T16:11:20.172455", "event": "app_shutdown"}
+2026-05-25T21:41:20 | app | INFO | {"timestamp": "2026-05-25T16:11:20.723210", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:22 | app | INFO | {"timestamp": "2026-05-25T16:11:22.944896", "event": "app_shutdown"}
+2026-05-25T21:41:23 | app | INFO | {"timestamp": "2026-05-25T16:11:23.536111", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:23 | app | INFO | {"timestamp": "2026-05-25T16:11:23.942145", "event": "app_shutdown"}
+2026-05-25T21:41:24 | app | INFO | {"timestamp": "2026-05-25T16:11:24.483868", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:26 | app | INFO | {"timestamp": "2026-05-25T16:11:26.806153", "event": "app_shutdown"}
+2026-05-25T21:41:27 | app | INFO | {"timestamp": "2026-05-25T16:11:27.354012", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:28 | app | INFO | {"timestamp": "2026-05-25T16:11:28.063517", "event": "app_shutdown"}
+2026-05-25T21:41:28 | app | INFO | {"timestamp": "2026-05-25T16:11:28.819796", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:30 | app | INFO | {"timestamp": "2026-05-25T16:11:30.234336", "event": "app_shutdown"}
+2026-05-25T21:41:30 | app | INFO | {"timestamp": "2026-05-25T16:11:30.791751", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:31 | app | INFO | {"timestamp": "2026-05-25T16:11:31.195805", "event": "app_shutdown"}
+2026-05-25T21:41:31 | app | INFO | {"timestamp": "2026-05-25T16:11:31.740355", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:33 | app | INFO | {"timestamp": "2026-05-25T16:11:33.663505", "event": "app_shutdown"}
+2026-05-25T21:41:34 | app | INFO | {"timestamp": "2026-05-25T16:11:34.229147", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:34 | app | INFO | {"timestamp": "2026-05-25T16:11:34.737907", "event": "app_shutdown"}
+2026-05-25T21:41:35 | app | INFO | {"timestamp": "2026-05-25T16:11:35.317174", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:36 | app | INFO | {"timestamp": "2026-05-25T16:11:36.733242", "event": "app_shutdown"}
+2026-05-25T21:41:37 | app | INFO | {"timestamp": "2026-05-25T16:11:37.297201", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:37 | app | INFO | {"timestamp": "2026-05-25T16:11:37.802732", "event": "app_shutdown"}
+2026-05-25T21:41:38 | app | INFO | {"timestamp": "2026-05-25T16:11:38.354431", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:40 | app | INFO | {"timestamp": "2026-05-25T16:11:40.175841", "event": "app_shutdown"}
+2026-05-25T21:41:40 | app | INFO | {"timestamp": "2026-05-25T16:11:40.745473", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:41 | app | INFO | {"timestamp": "2026-05-25T16:11:41.555729", "event": "app_shutdown"}
+2026-05-25T21:41:42 | app | INFO | {"timestamp": "2026-05-25T16:11:42.095673", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:43 | app | INFO | {"timestamp": "2026-05-25T16:11:43.917818", "event": "app_shutdown"}
+2026-05-25T21:41:44 | app | INFO | {"timestamp": "2026-05-25T16:11:44.468033", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:47 | app | INFO | {"timestamp": "2026-05-25T16:11:47.095950", "event": "app_shutdown"}
+2026-05-25T21:41:47 | app | INFO | {"timestamp": "2026-05-25T16:11:47.737851", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:48 | app | INFO | {"timestamp": "2026-05-25T16:11:48.244694", "event": "app_shutdown"}
+2026-05-25T21:41:48 | app | INFO | {"timestamp": "2026-05-25T16:11:48.903140", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:52 | app | INFO | {"timestamp": "2026-05-25T16:11:52.135563", "event": "app_shutdown"}
+2026-05-25T21:41:52 | app | INFO | {"timestamp": "2026-05-25T16:11:52.690187", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:53 | app | INFO | {"timestamp": "2026-05-25T16:11:53.601888", "event": "app_shutdown"}
+2026-05-25T21:41:54 | app | INFO | {"timestamp": "2026-05-25T16:11:54.147135", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:54 | app | INFO | {"timestamp": "2026-05-25T16:11:54.676926", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:55 | app | INFO | {"timestamp": "2026-05-25T16:11:55.198019", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:56 | app | INFO | {"timestamp": "2026-05-25T16:11:56.715204", "event": "app_shutdown"}
+2026-05-25T21:41:57 | app | INFO | {"timestamp": "2026-05-25T16:11:57.256902", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:57 | app | INFO | {"timestamp": "2026-05-25T16:11:57.459945", "event": "app_shutdown"}
+2026-05-25T21:41:57 | app | INFO | {"timestamp": "2026-05-25T16:11:57.992534", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:41:58 | app | INFO | {"timestamp": "2026-05-25T16:11:58.803233", "event": "app_shutdown"}
+2026-05-25T21:41:59 | app | INFO | {"timestamp": "2026-05-25T16:11:59.383051", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:00 | app | INFO | {"timestamp": "2026-05-25T16:12:00.101637", "event": "app_shutdown"}
+2026-05-25T21:42:00 | app | INFO | {"timestamp": "2026-05-25T16:12:00.640424", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:01 | app | INFO | {"timestamp": "2026-05-25T16:12:01.853903", "event": "app_shutdown"}
+2026-05-25T21:42:02 | app | INFO | {"timestamp": "2026-05-25T16:12:02.401057", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:02 | app | INFO | {"timestamp": "2026-05-25T16:12:02.705852", "event": "app_shutdown"}
+2026-05-25T21:42:03 | app | INFO | {"timestamp": "2026-05-25T16:12:03.247966", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:05 | app | INFO | {"timestamp": "2026-05-25T16:12:05.772284", "event": "app_shutdown"}
+2026-05-25T21:42:06 | app | INFO | {"timestamp": "2026-05-25T16:12:06.328388", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:12 | app | INFO | {"timestamp": "2026-05-25T16:12:12.408757", "event": "app_shutdown"}
+2026-05-25T21:42:13 | app | INFO | {"timestamp": "2026-05-25T16:12:13.097721", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:13 | app | INFO | {"timestamp": "2026-05-25T16:12:13.807382", "event": "app_shutdown"}
+2026-05-25T21:42:14 | app | INFO | {"timestamp": "2026-05-25T16:12:14.362062", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:17 | app | INFO | {"timestamp": "2026-05-25T16:12:17.290473", "event": "app_shutdown"}
+2026-05-25T21:42:17 | app | INFO | {"timestamp": "2026-05-25T16:12:17.862685", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:22 | app | INFO | {"timestamp": "2026-05-25T16:12:22.213300", "event": "app_shutdown"}
+2026-05-25T21:42:22 | app | INFO | {"timestamp": "2026-05-25T16:12:22.790011", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:23 | app | INFO | {"timestamp": "2026-05-25T16:12:23.326535", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:24 | app | INFO | {"timestamp": "2026-05-25T16:12:24.741089", "event": "app_shutdown"}
+2026-05-25T21:42:25 | app | INFO | {"timestamp": "2026-05-25T16:12:25.352323", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:26 | app | INFO | {"timestamp": "2026-05-25T16:12:26.867151", "event": "app_shutdown"}
+2026-05-25T21:42:27 | app | INFO | {"timestamp": "2026-05-25T16:12:27.432140", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:29 | app | INFO | {"timestamp": "2026-05-25T16:12:29.958656", "event": "app_shutdown"}
+2026-05-25T21:42:30 | app | INFO | {"timestamp": "2026-05-25T16:12:30.657438", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:31 | app | INFO | {"timestamp": "2026-05-25T16:12:31.230917", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:31 | app | INFO | {"timestamp": "2026-05-25T16:12:31.534593", "event": "app_shutdown"}
+2026-05-25T21:42:32 | app | INFO | {"timestamp": "2026-05-25T16:12:32.077999", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:34 | app | INFO | {"timestamp": "2026-05-25T16:12:34.405304", "event": "app_shutdown"}
+2026-05-25T21:42:34 | app | INFO | {"timestamp": "2026-05-25T16:12:34.957760", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:35 | app | INFO | {"timestamp": "2026-05-25T16:12:35.667165", "event": "app_shutdown"}
+2026-05-25T21:42:36 | app | INFO | {"timestamp": "2026-05-25T16:12:36.237867", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:38 | app | INFO | {"timestamp": "2026-05-25T16:12:38.360763", "event": "app_shutdown"}
+2026-05-25T21:42:38 | app | INFO | {"timestamp": "2026-05-25T16:12:38.915168", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:39 | app | INFO | {"timestamp": "2026-05-25T16:12:39.523614", "event": "app_shutdown"}
+2026-05-25T21:42:40 | app | INFO | {"timestamp": "2026-05-25T16:12:40.077552", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:42:42 | app | INFO | {"timestamp": "2026-05-25T16:12:42.503194", "event": "app_shutdown"}
+2026-05-25T21:42:43 | app | INFO | {"timestamp": "2026-05-25T16:12:43.054215", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:50:25 | app | INFO | {"timestamp": "2026-05-25T16:20:25.955595", "event": "app_shutdown"}
+2026-05-25T21:50:27 | app | INFO | {"timestamp": "2026-05-25T16:20:27.066719", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:11 | app | INFO | {"timestamp": "2026-05-25T16:21:11.187879", "event": "app_shutdown"}
+2026-05-25T21:51:12 | app | INFO | {"timestamp": "2026-05-25T16:21:12.326608", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:12 | app | INFO | {"timestamp": "2026-05-25T16:21:12.863330", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:13 | app | INFO | {"timestamp": "2026-05-25T16:21:13.984644", "event": "app_shutdown"}
+2026-05-25T21:51:14 | app | INFO | {"timestamp": "2026-05-25T16:21:14.822430", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:46 | app | INFO | {"timestamp": "2026-05-25T16:21:46.755773", "event": "app_shutdown"}
+2026-05-25T21:51:48 | app | INFO | {"timestamp": "2026-05-25T16:21:48.023451", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:48 | app | INFO | {"timestamp": "2026-05-25T16:21:48.795016", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:49 | app | INFO | {"timestamp": "2026-05-25T16:21:49.378798", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:50 | app | INFO | {"timestamp": "2026-05-25T16:21:50.694386", "event": "app_shutdown"}
+2026-05-25T21:51:51 | app | INFO | {"timestamp": "2026-05-25T16:21:51.294273", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:51 | app | INFO | {"timestamp": "2026-05-25T16:21:51.901101", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:53 | app | INFO | {"timestamp": "2026-05-25T16:21:53.940907", "event": "app_shutdown"}
+2026-05-25T21:51:54 | app | INFO | {"timestamp": "2026-05-25T16:21:54.560221", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:58 | app | INFO | {"timestamp": "2026-05-25T16:21:58.016861", "event": "app_shutdown"}
+2026-05-25T21:51:58 | app | INFO | {"timestamp": "2026-05-25T16:21:58.652185", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:51:58 | app | INFO | {"timestamp": "2026-05-25T16:21:58.957929", "event": "app_shutdown"}
+2026-05-25T21:51:59 | app | INFO | {"timestamp": "2026-05-25T16:21:59.565211", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:01 | app | INFO | {"timestamp": "2026-05-25T16:22:01.296806", "event": "app_shutdown"}
+2026-05-25T21:52:02 | app | INFO | {"timestamp": "2026-05-25T16:22:02.105698", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:02 | app | INFO | {"timestamp": "2026-05-25T16:22:02.632903", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:03 | app | INFO | {"timestamp": "2026-05-25T16:22:03.553560", "event": "app_shutdown"}
+2026-05-25T21:52:04 | app | INFO | {"timestamp": "2026-05-25T16:22:04.147638", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:12 | app | INFO | {"timestamp": "2026-05-25T16:22:12.896057", "event": "app_shutdown"}
+2026-05-25T21:52:13 | app | INFO | {"timestamp": "2026-05-25T16:22:13.528202", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:14 | app | INFO | {"timestamp": "2026-05-25T16:22:14.081017", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:15 | app | INFO | {"timestamp": "2026-05-25T16:22:15.499606", "event": "app_shutdown"}
+2026-05-25T21:52:16 | app | INFO | {"timestamp": "2026-05-25T16:22:16.066354", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:16 | app | INFO | {"timestamp": "2026-05-25T16:22:16.371623", "event": "app_shutdown"}
+2026-05-25T21:52:17 | app | INFO | {"timestamp": "2026-05-25T16:22:17.267513", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:17 | app | INFO | {"timestamp": "2026-05-25T16:22:17.977239", "event": "app_shutdown"}
+2026-05-25T21:52:18 | app | INFO | {"timestamp": "2026-05-25T16:22:18.560686", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:22 | app | INFO | {"timestamp": "2026-05-25T16:22:22.016072", "event": "app_shutdown"}
+2026-05-25T21:52:22 | app | INFO | {"timestamp": "2026-05-25T16:22:22.850168", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:25 | app | INFO | {"timestamp": "2026-05-25T16:22:25.092175", "event": "app_shutdown"}
+2026-05-25T21:52:25 | app | INFO | {"timestamp": "2026-05-25T16:22:25.694348", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:41 | app | INFO | {"timestamp": "2026-05-25T16:22:41.680071", "event": "app_shutdown"}
+2026-05-25T21:52:42 | app | INFO | {"timestamp": "2026-05-25T16:22:42.576171", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:43 | app | INFO | {"timestamp": "2026-05-25T16:22:43.592271", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:44 | app | INFO | {"timestamp": "2026-05-25T16:22:44.508157", "event": "app_shutdown"}
+2026-05-25T21:52:45 | app | INFO | {"timestamp": "2026-05-25T16:22:45.066461", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:45 | app | INFO | {"timestamp": "2026-05-25T16:22:45.595635", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:52:46 | app | INFO | {"timestamp": "2026-05-25T16:22:46.616809", "event": "app_shutdown"}
+2026-05-25T21:52:47 | app | INFO | {"timestamp": "2026-05-25T16:22:47.481999", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:03 | app | INFO | {"timestamp": "2026-05-25T16:23:03.526953", "event": "app_shutdown"}
+2026-05-25T21:53:04 | app | INFO | {"timestamp": "2026-05-25T16:23:04.600395", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:05 | app | INFO | {"timestamp": "2026-05-25T16:23:05.007997", "event": "app_shutdown"}
+2026-05-25T21:53:05 | app | INFO | {"timestamp": "2026-05-25T16:23:05.656728", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:06 | app | INFO | {"timestamp": "2026-05-25T16:23:06.672677", "event": "app_shutdown"}
+2026-05-25T21:53:07 | app | INFO | {"timestamp": "2026-05-25T16:23:07.261983", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:08 | app | INFO | {"timestamp": "2026-05-25T16:23:08.485634", "event": "app_shutdown"}
+2026-05-25T21:53:09 | app | INFO | {"timestamp": "2026-05-25T16:23:09.186491", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:21 | app | INFO | {"timestamp": "2026-05-25T16:23:21.904864", "event": "app_shutdown"}
+2026-05-25T21:53:23 | app | INFO | {"timestamp": "2026-05-25T16:23:23.994376", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:27 | app | INFO | {"timestamp": "2026-05-25T16:23:27.860682", "event": "app_shutdown"}
+2026-05-25T21:53:28 | app | INFO | {"timestamp": "2026-05-25T16:23:28.691726", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:29 | app | INFO | {"timestamp": "2026-05-25T16:23:29.924989", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:45 | app | INFO | {"timestamp": "2026-05-25T16:23:45.473762", "event": "app_shutdown"}
+2026-05-25T21:53:46 | app | INFO | {"timestamp": "2026-05-25T16:23:46.735100", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:47 | app | INFO | {"timestamp": "2026-05-25T16:23:47.051889", "event": "app_shutdown"}
+2026-05-25T21:53:47 | app | INFO | {"timestamp": "2026-05-25T16:23:47.659601", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:47 | app | INFO | {"timestamp": "2026-05-25T16:23:47.967390", "event": "app_shutdown"}
+2026-05-25T21:53:48 | app | INFO | {"timestamp": "2026-05-25T16:23:48.548311", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:53:49 | app | INFO | {"timestamp": "2026-05-25T16:23:49.196937", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:08 | app | INFO | {"timestamp": "2026-05-25T16:24:08.520450", "event": "app_shutdown"}
+2026-05-25T21:54:09 | app | INFO | {"timestamp": "2026-05-25T16:24:09.405790", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:09 | app | INFO | {"timestamp": "2026-05-25T16:24:09.611669", "event": "app_shutdown"}
+2026-05-25T21:54:10 | app | INFO | {"timestamp": "2026-05-25T16:24:10.588243", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:10 | app | INFO | {"timestamp": "2026-05-25T16:24:10.792271", "event": "app_shutdown"}
+2026-05-25T21:54:11 | app | INFO | {"timestamp": "2026-05-25T16:24:11.747332", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:12 | app | INFO | {"timestamp": "2026-05-25T16:24:12.403616", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:13 | app | INFO | {"timestamp": "2026-05-25T16:24:13.320379", "event": "app_shutdown"}
+2026-05-25T21:54:13 | app | INFO | {"timestamp": "2026-05-25T16:24:13.989483", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:34 | app | INFO | {"timestamp": "2026-05-25T16:24:34.639285", "event": "app_shutdown"}
+2026-05-25T21:54:35 | app | INFO | {"timestamp": "2026-05-25T16:24:35.726138", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:36 | app | INFO | {"timestamp": "2026-05-25T16:24:36.034267", "event": "app_shutdown"}
+2026-05-25T21:54:36 | app | INFO | {"timestamp": "2026-05-25T16:24:36.792254", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:39 | app | INFO | {"timestamp": "2026-05-25T16:24:39.541309", "event": "app_shutdown"}
+2026-05-25T21:54:41 | app | INFO | {"timestamp": "2026-05-25T16:24:41.014986", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:41 | app | INFO | {"timestamp": "2026-05-25T16:24:41.902296", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:54:42 | app | INFO | {"timestamp": "2026-05-25T16:24:42.973644", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:04 | app | INFO | {"timestamp": "2026-05-25T16:25:04.610778", "event": "app_shutdown"}
+2026-05-25T21:55:05 | app | INFO | {"timestamp": "2026-05-25T16:25:05.689224", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:08 | app | INFO | {"timestamp": "2026-05-25T16:25:08.132711", "event": "app_shutdown"}
+2026-05-25T21:55:08 | app | INFO | {"timestamp": "2026-05-25T16:25:08.871877", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:28 | app | INFO | {"timestamp": "2026-05-25T16:25:28.184676", "event": "app_shutdown"}
+2026-05-25T21:55:29 | app | INFO | {"timestamp": "2026-05-25T16:25:29.295248", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:29 | app | INFO | {"timestamp": "2026-05-25T16:25:29.909058", "event": "app_shutdown"}
+2026-05-25T21:55:30 | app | INFO | {"timestamp": "2026-05-25T16:25:30.566255", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:31 | app | INFO | {"timestamp": "2026-05-25T16:25:31.127136", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:52 | app | INFO | {"timestamp": "2026-05-25T16:25:52.756935", "event": "app_shutdown"}
+2026-05-25T21:55:53 | app | INFO | {"timestamp": "2026-05-25T16:25:53.670088", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:54 | app | INFO | {"timestamp": "2026-05-25T16:25:54.488686", "event": "app_shutdown"}
+2026-05-25T21:55:55 | app | INFO | {"timestamp": "2026-05-25T16:25:55.722597", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:55:59 | app | INFO | {"timestamp": "2026-05-25T16:25:59.693579", "event": "app_shutdown"}
+2026-05-25T21:56:00 | app | INFO | {"timestamp": "2026-05-25T16:26:00.726170", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:56:18 | app | INFO | {"timestamp": "2026-05-25T16:26:18.809952", "event": "app_shutdown"}
+2026-05-25T21:56:19 | app | INFO | {"timestamp": "2026-05-25T16:26:19.886067", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:56:20 | app | INFO | {"timestamp": "2026-05-25T16:26:20.557930", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:56:20 | app | INFO | {"timestamp": "2026-05-25T16:26:20.864007", "event": "app_shutdown"}
+2026-05-25T21:56:21 | app | INFO | {"timestamp": "2026-05-25T16:26:21.424377", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:56:47 | app | INFO | {"timestamp": "2026-05-25T16:26:47.932876", "event": "app_shutdown"}
+2026-05-25T21:56:49 | app | INFO | {"timestamp": "2026-05-25T16:26:49.666740", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:56:49 | app | INFO | {"timestamp": "2026-05-25T16:26:49.972211", "event": "app_shutdown"}
+2026-05-25T21:56:50 | app | INFO | {"timestamp": "2026-05-25T16:26:50.697911", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:57:14 | app | INFO | {"timestamp": "2026-05-25T16:27:14.074621", "event": "app_shutdown"}
+2026-05-25T21:57:15 | app | INFO | {"timestamp": "2026-05-25T16:27:15.449015", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:57:16 | app | INFO | {"timestamp": "2026-05-25T16:27:16.080708", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:57:17 | app | INFO | {"timestamp": "2026-05-25T16:27:17.091780", "event": "app_shutdown"}
+2026-05-25T21:57:17 | app | INFO | {"timestamp": "2026-05-25T16:27:17.704707", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:57:20 | app | INFO | {"timestamp": "2026-05-25T16:27:20.335354", "event": "app_shutdown"}
+2026-05-25T21:57:21 | app | INFO | {"timestamp": "2026-05-25T16:27:21.026141", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:57:28 | app | INFO | {"timestamp": "2026-05-25T16:27:28.518095", "event": "app_shutdown"}
+2026-05-25T21:57:29 | app | INFO | {"timestamp": "2026-05-25T16:27:29.655421", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:13 | app | INFO | {"timestamp": "2026-05-25T16:28:13.135050", "event": "app_shutdown"}
+2026-05-25T21:58:13 | app | INFO | {"timestamp": "2026-05-25T16:28:13.962601", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:15 | app | INFO | {"timestamp": "2026-05-25T16:28:15.378941", "event": "app_shutdown"}
+2026-05-25T21:58:16 | app | INFO | {"timestamp": "2026-05-25T16:28:16.013740", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:17 | app | INFO | {"timestamp": "2026-05-25T16:28:17.733327", "event": "app_shutdown"}
+2026-05-25T21:58:18 | app | INFO | {"timestamp": "2026-05-25T16:28:18.349982", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:18 | app | INFO | {"timestamp": "2026-05-25T16:28:18.654130", "event": "app_shutdown"}
+2026-05-25T21:58:19 | app | INFO | {"timestamp": "2026-05-25T16:28:19.199524", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:20 | app | INFO | {"timestamp": "2026-05-25T16:28:20.814599", "event": "app_shutdown"}
+2026-05-25T21:58:21 | app | INFO | {"timestamp": "2026-05-25T16:28:21.383877", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:34 | app | INFO | {"timestamp": "2026-05-25T16:28:34.515103", "event": "app_shutdown"}
+2026-05-25T21:58:35 | app | INFO | {"timestamp": "2026-05-25T16:28:35.410828", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:36 | app | INFO | {"timestamp": "2026-05-25T16:28:36.824538", "event": "app_shutdown"}
+2026-05-25T21:58:37 | app | INFO | {"timestamp": "2026-05-25T16:28:37.596363", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:39 | app | INFO | {"timestamp": "2026-05-25T16:28:39.314444", "event": "app_shutdown"}
+2026-05-25T21:58:40 | app | INFO | {"timestamp": "2026-05-25T16:28:40.124421", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:58:58 | app | INFO | {"timestamp": "2026-05-25T16:28:58.921142", "event": "app_shutdown"}
+2026-05-25T21:58:59 | app | INFO | {"timestamp": "2026-05-25T16:28:59.662900", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:00 | app | INFO | {"timestamp": "2026-05-25T16:29:00.980105", "event": "app_shutdown"}
+2026-05-25T21:59:01 | app | INFO | {"timestamp": "2026-05-25T16:29:01.545883", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:02 | app | INFO | {"timestamp": "2026-05-25T16:29:02.076370", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:03 | app | INFO | {"timestamp": "2026-05-25T16:29:03.390903", "event": "app_shutdown"}
+2026-05-25T21:59:03 | app | INFO | {"timestamp": "2026-05-25T16:29:03.944950", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:04 | app | INFO | {"timestamp": "2026-05-25T16:29:04.476049", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:06 | app | INFO | {"timestamp": "2026-05-25T16:29:06.193540", "event": "app_shutdown"}
+2026-05-25T21:59:07 | app | INFO | {"timestamp": "2026-05-25T16:29:07.208040", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:22 | app | INFO | {"timestamp": "2026-05-25T16:29:22.249259", "event": "app_shutdown"}
+2026-05-25T21:59:23 | app | INFO | {"timestamp": "2026-05-25T16:29:23.124151", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:24 | app | INFO | {"timestamp": "2026-05-25T16:29:24.741172", "event": "app_shutdown"}
+2026-05-25T21:59:25 | app | INFO | {"timestamp": "2026-05-25T16:29:25.370724", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:26 | app | INFO | {"timestamp": "2026-05-25T16:29:26.381094", "event": "app_shutdown"}
+2026-05-25T21:59:27 | app | INFO | {"timestamp": "2026-05-25T16:29:27.012577", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:27 | app | INFO | {"timestamp": "2026-05-25T16:29:27.803390", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:28 | app | INFO | {"timestamp": "2026-05-25T16:29:28.372773", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:44 | app | INFO | {"timestamp": "2026-05-25T16:29:44.728558", "event": "app_shutdown"}
+2026-05-25T21:59:45 | app | INFO | {"timestamp": "2026-05-25T16:29:45.541426", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:46 | app | INFO | {"timestamp": "2026-05-25T16:29:46.350996", "event": "app_shutdown"}
+2026-05-25T21:59:46 | app | INFO | {"timestamp": "2026-05-25T16:29:46.913103", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:49 | app | INFO | {"timestamp": "2026-05-25T16:29:49.647171", "event": "app_shutdown"}
+2026-05-25T21:59:50 | app | INFO | {"timestamp": "2026-05-25T16:29:50.208121", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T21:59:52 | app | INFO | {"timestamp": "2026-05-25T16:29:52.332277", "event": "app_shutdown"}
+2026-05-25T21:59:52 | app | INFO | {"timestamp": "2026-05-25T16:29:52.945248", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:10 | app | INFO | {"timestamp": "2026-05-25T16:30:10.932869", "event": "app_shutdown"}
+2026-05-25T22:00:12 | app | INFO | {"timestamp": "2026-05-25T16:30:12.166244", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:14 | app | INFO | {"timestamp": "2026-05-25T16:30:14.086783", "event": "app_shutdown"}
+2026-05-25T22:00:14 | app | INFO | {"timestamp": "2026-05-25T16:30:14.633291", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:15 | app | INFO | {"timestamp": "2026-05-25T16:30:15.036685", "event": "app_shutdown"}
+2026-05-25T22:00:15 | app | INFO | {"timestamp": "2026-05-25T16:30:15.591302", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:17 | app | INFO | {"timestamp": "2026-05-25T16:30:17.710202", "event": "app_shutdown"}
+2026-05-25T22:00:18 | app | INFO | {"timestamp": "2026-05-25T16:30:18.279001", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:19 | app | INFO | {"timestamp": "2026-05-25T16:30:19.368296", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:34 | app | INFO | {"timestamp": "2026-05-25T16:30:34.448089", "event": "app_shutdown"}
+2026-05-25T22:00:35 | app | INFO | {"timestamp": "2026-05-25T16:30:35.361454", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:35 | app | INFO | {"timestamp": "2026-05-25T16:30:35.898860", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:38 | app | INFO | {"timestamp": "2026-05-25T16:30:38.423976", "event": "app_shutdown"}
+2026-05-25T22:00:39 | app | INFO | {"timestamp": "2026-05-25T16:30:39.021514", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:40 | app | INFO | {"timestamp": "2026-05-25T16:30:40.541915", "event": "app_shutdown"}
+2026-05-25T22:00:41 | app | INFO | {"timestamp": "2026-05-25T16:30:41.081946", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:41 | app | INFO | {"timestamp": "2026-05-25T16:30:41.953350", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:54 | app | INFO | {"timestamp": "2026-05-25T16:30:54.171012", "event": "app_shutdown"}
+2026-05-25T22:00:54 | app | INFO | {"timestamp": "2026-05-25T16:30:54.858396", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:55 | app | INFO | {"timestamp": "2026-05-25T16:30:55.768059", "event": "app_shutdown"}
+2026-05-25T22:00:56 | app | INFO | {"timestamp": "2026-05-25T16:30:56.397055", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:56 | app | INFO | {"timestamp": "2026-05-25T16:30:56.701429", "event": "app_shutdown"}
+2026-05-25T22:00:57 | app | INFO | {"timestamp": "2026-05-25T16:30:57.577419", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:00:58 | app | INFO | {"timestamp": "2026-05-25T16:30:58.122859", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:00 | app | INFO | {"timestamp": "2026-05-25T16:31:00.344714", "event": "app_shutdown"}
+2026-05-25T22:01:00 | app | INFO | {"timestamp": "2026-05-25T16:31:00.903188", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:01 | app | INFO | {"timestamp": "2026-05-25T16:31:01.428416", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:02 | app | INFO | {"timestamp": "2026-05-25T16:31:02.742532", "event": "app_shutdown"}
+2026-05-25T22:01:03 | app | INFO | {"timestamp": "2026-05-25T16:31:03.511964", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:04 | app | INFO | {"timestamp": "2026-05-25T16:31:04.016242", "event": "app_shutdown"}
+2026-05-25T22:01:04 | app | INFO | {"timestamp": "2026-05-25T16:31:04.634911", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:19 | app | INFO | {"timestamp": "2026-05-25T16:31:19.275116", "event": "app_shutdown"}
+2026-05-25T22:01:20 | app | INFO | {"timestamp": "2026-05-25T16:31:20.656921", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:21 | app | INFO | {"timestamp": "2026-05-25T16:31:21.409017", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:24 | app | INFO | {"timestamp": "2026-05-25T16:31:24.339397", "event": "app_shutdown"}
+2026-05-25T22:01:24 | app | INFO | {"timestamp": "2026-05-25T16:31:24.888526", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:26 | app | INFO | {"timestamp": "2026-05-25T16:31:26.002700", "event": "app_shutdown"}
+2026-05-25T22:01:26 | app | INFO | {"timestamp": "2026-05-25T16:31:26.683548", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:37 | app | INFO | {"timestamp": "2026-05-25T16:31:37.592750", "event": "app_shutdown"}
+2026-05-25T22:01:38 | app | INFO | {"timestamp": "2026-05-25T16:31:38.402657", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:38 | app | INFO | {"timestamp": "2026-05-25T16:31:38.936678", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:39 | app | INFO | {"timestamp": "2026-05-25T16:31:39.443203", "event": "app_shutdown"}
+2026-05-25T22:01:39 | app | INFO | {"timestamp": "2026-05-25T16:31:39.992549", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:01:41 | app | INFO | {"timestamp": "2026-05-25T16:31:41.103398", "event": "app_shutdown"}
+2026-05-25T22:01:41 | app | INFO | {"timestamp": "2026-05-25T16:31:41.780413", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:02 | app | INFO | {"timestamp": "2026-05-25T16:32:02.678739", "event": "app_shutdown"}
+2026-05-25T22:02:03 | app | INFO | {"timestamp": "2026-05-25T16:32:03.789364", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:04 | app | INFO | {"timestamp": "2026-05-25T16:32:04.437949", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:05 | app | INFO | {"timestamp": "2026-05-25T16:32:05.956414", "event": "app_shutdown"}
+2026-05-25T22:02:06 | app | INFO | {"timestamp": "2026-05-25T16:32:06.723816", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:07 | app | INFO | {"timestamp": "2026-05-25T16:32:07.277182", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:07 | app | INFO | {"timestamp": "2026-05-25T16:32:07.580967", "event": "app_shutdown"}
+2026-05-25T22:02:08 | app | INFO | {"timestamp": "2026-05-25T16:32:08.147400", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:18 | app | INFO | {"timestamp": "2026-05-25T16:32:18.342997", "event": "app_shutdown"}
+2026-05-25T22:02:18 | app | INFO | {"timestamp": "2026-05-25T16:32:18.907842", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:19 | app | INFO | {"timestamp": "2026-05-25T16:32:19.817166", "event": "app_shutdown"}
+2026-05-25T22:02:20 | app | INFO | {"timestamp": "2026-05-25T16:32:20.394151", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:20 | app | INFO | {"timestamp": "2026-05-25T16:32:20.965692", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:22 | app | INFO | {"timestamp": "2026-05-25T16:32:22.481718", "event": "app_shutdown"}
+2026-05-25T22:02:23 | app | INFO | {"timestamp": "2026-05-25T16:32:23.176472", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:38 | app | INFO | {"timestamp": "2026-05-25T16:32:38.169862", "event": "app_shutdown"}
+2026-05-25T22:02:38 | app | INFO | {"timestamp": "2026-05-25T16:32:38.970319", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:41 | app | INFO | {"timestamp": "2026-05-25T16:32:41.508889", "event": "app_shutdown"}
+2026-05-25T22:02:42 | app | INFO | {"timestamp": "2026-05-25T16:32:42.179422", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:43 | app | INFO | {"timestamp": "2026-05-25T16:32:43.093160", "event": "app_shutdown"}
+2026-05-25T22:02:43 | app | INFO | {"timestamp": "2026-05-25T16:32:43.682626", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:54 | app | INFO | {"timestamp": "2026-05-25T16:32:54.661362", "event": "app_shutdown"}
+2026-05-25T22:02:55 | app | INFO | {"timestamp": "2026-05-25T16:32:55.327805", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:02:56 | app | INFO | {"timestamp": "2026-05-25T16:32:56.954800", "event": "app_shutdown"}
+2026-05-25T22:02:57 | app | INFO | {"timestamp": "2026-05-25T16:32:57.515120", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:10 | app | INFO | {"timestamp": "2026-05-25T16:33:10.855269", "event": "app_shutdown"}
+2026-05-25T22:03:11 | app | INFO | {"timestamp": "2026-05-25T16:33:11.539514", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:12 | app | INFO | {"timestamp": "2026-05-25T16:33:12.149169", "event": "app_shutdown"}
+2026-05-25T22:03:12 | app | INFO | {"timestamp": "2026-05-25T16:33:12.696640", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:13 | app | INFO | {"timestamp": "2026-05-25T16:33:13.227113", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:14 | app | INFO | {"timestamp": "2026-05-25T16:33:14.449979", "event": "app_shutdown"}
+2026-05-25T22:03:15 | app | INFO | {"timestamp": "2026-05-25T16:33:15.334612", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:28 | app | INFO | {"timestamp": "2026-05-25T16:33:28.575900", "event": "app_shutdown"}
+2026-05-25T22:03:29 | app | INFO | {"timestamp": "2026-05-25T16:33:29.533538", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:29 | app | INFO | {"timestamp": "2026-05-25T16:33:29.942442", "event": "app_shutdown"}
+2026-05-25T22:03:30 | app | INFO | {"timestamp": "2026-05-25T16:33:30.574792", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:31 | app | INFO | {"timestamp": "2026-05-25T16:33:31.113422", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:31 | app | INFO | {"timestamp": "2026-05-25T16:33:31.929430", "event": "app_shutdown"}
+2026-05-25T22:03:32 | app | INFO | {"timestamp": "2026-05-25T16:33:32.481900", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:34 | app | INFO | {"timestamp": "2026-05-25T16:33:34.415701", "event": "app_shutdown"}
+2026-05-25T22:03:35 | app | INFO | {"timestamp": "2026-05-25T16:33:35.391097", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:35 | app | INFO | {"timestamp": "2026-05-25T16:33:35.981889", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:36 | app | INFO | {"timestamp": "2026-05-25T16:33:36.287857", "event": "app_shutdown"}
+2026-05-25T22:03:36 | app | INFO | {"timestamp": "2026-05-25T16:33:36.890393", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:50 | app | INFO | {"timestamp": "2026-05-25T16:33:50.819694", "event": "app_shutdown"}
+2026-05-25T22:03:51 | app | INFO | {"timestamp": "2026-05-25T16:33:51.500756", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:52 | app | INFO | {"timestamp": "2026-05-25T16:33:52.215569", "event": "app_shutdown"}
+2026-05-25T22:03:52 | app | INFO | {"timestamp": "2026-05-25T16:33:52.763180", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:53 | app | INFO | {"timestamp": "2026-05-25T16:33:53.290182", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:53 | app | INFO | {"timestamp": "2026-05-25T16:33:53.493797", "event": "app_shutdown"}
+2026-05-25T22:03:54 | app | INFO | {"timestamp": "2026-05-25T16:33:54.034078", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:03:55 | app | INFO | {"timestamp": "2026-05-25T16:33:55.177591", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:14 | app | INFO | {"timestamp": "2026-05-25T16:34:14.406851", "event": "app_shutdown"}
+2026-05-25T22:04:15 | app | INFO | {"timestamp": "2026-05-25T16:34:15.310129", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:15 | app | INFO | {"timestamp": "2026-05-25T16:34:15.715464", "event": "app_shutdown"}
+2026-05-25T22:04:16 | app | INFO | {"timestamp": "2026-05-25T16:34:16.271919", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:16 | app | INFO | {"timestamp": "2026-05-25T16:34:16.781569", "event": "app_shutdown"}
+2026-05-25T22:04:17 | app | INFO | {"timestamp": "2026-05-25T16:34:17.342149", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:18 | app | INFO | {"timestamp": "2026-05-25T16:34:18.665265", "event": "app_shutdown"}
+2026-05-25T22:04:19 | app | INFO | {"timestamp": "2026-05-25T16:34:19.210426", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:23 | app | INFO | {"timestamp": "2026-05-25T16:34:23.174641", "event": "app_shutdown"}
+2026-05-25T22:04:23 | app | INFO | {"timestamp": "2026-05-25T16:34:23.934338", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:24 | app | INFO | {"timestamp": "2026-05-25T16:34:24.954683", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:46 | app | INFO | {"timestamp": "2026-05-25T16:34:46.412009", "event": "app_shutdown"}
+2026-05-25T22:04:47 | app | INFO | {"timestamp": "2026-05-25T16:34:47.685823", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:50 | app | INFO | {"timestamp": "2026-05-25T16:34:50.127278", "event": "app_shutdown"}
+2026-05-25T22:04:50 | app | INFO | {"timestamp": "2026-05-25T16:34:50.857976", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:04:51 | app | INFO | {"timestamp": "2026-05-25T16:34:51.709141", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:13 | app | INFO | {"timestamp": "2026-05-25T16:35:13.868702", "event": "app_shutdown"}
+2026-05-25T22:05:14 | app | INFO | {"timestamp": "2026-05-25T16:35:14.682510", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:15 | app | INFO | {"timestamp": "2026-05-25T16:35:15.308466", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:16 | app | INFO | {"timestamp": "2026-05-25T16:35:16.927093", "event": "app_shutdown"}
+2026-05-25T22:05:17 | app | INFO | {"timestamp": "2026-05-25T16:35:17.482260", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:17 | app | INFO | {"timestamp": "2026-05-25T16:35:17.788680", "event": "app_shutdown"}
+2026-05-25T22:05:18 | app | INFO | {"timestamp": "2026-05-25T16:35:18.415939", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:20 | app | INFO | {"timestamp": "2026-05-25T16:35:20.755967", "event": "app_shutdown"}
+2026-05-25T22:05:21 | app | INFO | {"timestamp": "2026-05-25T16:35:21.492434", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:23 | app | INFO | {"timestamp": "2026-05-25T16:35:23.120132", "event": "app_shutdown"}
+2026-05-25T22:05:23 | app | INFO | {"timestamp": "2026-05-25T16:35:23.692746", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:27 | app | INFO | {"timestamp": "2026-05-25T16:35:27.245160", "event": "app_shutdown"}
+2026-05-25T22:05:27 | app | INFO | {"timestamp": "2026-05-25T16:35:27.918135", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:30 | app | INFO | {"timestamp": "2026-05-25T16:35:30.463980", "event": "app_shutdown"}
+2026-05-25T22:05:31 | app | INFO | {"timestamp": "2026-05-25T16:35:31.229285", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:05:32 | app | INFO | {"timestamp": "2026-05-25T16:35:32.084279", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:17 | app | INFO | {"timestamp": "2026-05-25T17:25:17.045871", "event": "app_shutdown"}
+2026-05-25T22:55:18 | app | INFO | {"timestamp": "2026-05-25T17:25:18.176791", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:18 | app | INFO | {"timestamp": "2026-05-25T17:25:18.786551", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:19 | app | INFO | {"timestamp": "2026-05-25T17:25:19.453043", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:20 | app | INFO | {"timestamp": "2026-05-25T17:25:20.774863", "event": "app_shutdown"}
+2026-05-25T22:55:21 | app | INFO | {"timestamp": "2026-05-25T17:25:21.336782", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:22 | app | INFO | {"timestamp": "2026-05-25T17:25:22.150334", "event": "app_shutdown"}
+2026-05-25T22:55:22 | app | INFO | {"timestamp": "2026-05-25T17:25:22.714888", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:23 | app | INFO | {"timestamp": "2026-05-25T17:25:23.285703", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:24 | app | INFO | {"timestamp": "2026-05-25T17:25:24.101195", "event": "app_shutdown"}
+2026-05-25T22:55:24 | app | INFO | {"timestamp": "2026-05-25T17:25:24.685815", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:27 | app | INFO | {"timestamp": "2026-05-25T17:25:27.126416", "event": "app_shutdown"}
+2026-05-25T22:55:27 | app | INFO | {"timestamp": "2026-05-25T17:25:27.967465", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:30 | app | INFO | {"timestamp": "2026-05-25T17:25:30.000698", "event": "app_shutdown"}
+2026-05-25T22:55:30 | app | INFO | {"timestamp": "2026-05-25T17:25:30.731674", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:31 | app | INFO | {"timestamp": "2026-05-25T17:25:31.461527", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:33 | app | INFO | {"timestamp": "2026-05-25T17:25:33.591031", "event": "app_shutdown"}
+2026-05-25T22:55:34 | app | INFO | {"timestamp": "2026-05-25T17:25:34.431323", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:34 | app | INFO | {"timestamp": "2026-05-25T17:25:34.987066", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:35 | app | INFO | {"timestamp": "2026-05-25T17:25:35.908885", "event": "app_shutdown"}
+2026-05-25T22:55:36 | app | INFO | {"timestamp": "2026-05-25T17:25:36.490207", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:36 | app | INFO | {"timestamp": "2026-05-25T17:25:36.894896", "event": "app_shutdown"}
+2026-05-25T22:55:37 | app | INFO | {"timestamp": "2026-05-25T17:25:37.665977", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:38 | app | INFO | {"timestamp": "2026-05-25T17:25:38.404061", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:38 | app | INFO | {"timestamp": "2026-05-25T17:25:38.609128", "event": "app_shutdown"}
+2026-05-25T22:55:39 | app | INFO | {"timestamp": "2026-05-25T17:25:39.190776", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:40 | app | INFO | {"timestamp": "2026-05-25T17:25:40.106537", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:40 | app | INFO | {"timestamp": "2026-05-25T17:25:40.681854", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:41 | app | INFO | {"timestamp": "2026-05-25T17:25:41.697027", "event": "app_shutdown"}
+2026-05-25T22:55:42 | app | INFO | {"timestamp": "2026-05-25T17:25:42.255068", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:45 | app | INFO | {"timestamp": "2026-05-25T17:25:45.507460", "event": "app_shutdown"}
+2026-05-25T22:55:46 | app | INFO | {"timestamp": "2026-05-25T17:25:46.273988", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:47 | app | INFO | {"timestamp": "2026-05-25T17:25:47.113640", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:48 | app | INFO | {"timestamp": "2026-05-25T17:25:48.032062", "event": "app_shutdown"}
+2026-05-25T22:55:48 | app | INFO | {"timestamp": "2026-05-25T17:25:48.596463", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:55:49 | app | INFO | {"timestamp": "2026-05-25T17:25:49.330999", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:00 | app | INFO | {"timestamp": "2026-05-25T17:26:00.508068", "event": "app_shutdown"}
+2026-05-25T22:56:01 | app | INFO | {"timestamp": "2026-05-25T17:26:01.200688", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:02 | app | INFO | {"timestamp": "2026-05-25T17:26:02.524480", "event": "app_shutdown"}
+2026-05-25T22:56:03 | app | INFO | {"timestamp": "2026-05-25T17:26:03.105969", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:03 | app | INFO | {"timestamp": "2026-05-25T17:26:03.678171", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:05 | app | INFO | {"timestamp": "2026-05-25T17:26:05.000902", "event": "app_shutdown"}
+2026-05-25T22:56:06 | app | INFO | {"timestamp": "2026-05-25T17:26:06.100201", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:51 | app | INFO | {"timestamp": "2026-05-25T17:26:51.856059", "event": "app_shutdown"}
+2026-05-25T22:56:52 | app | INFO | {"timestamp": "2026-05-25T17:26:52.541891", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:53 | app | INFO | {"timestamp": "2026-05-25T17:26:53.408286", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:54 | app | INFO | {"timestamp": "2026-05-25T17:26:54.027098", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:55 | app | INFO | {"timestamp": "2026-05-25T17:26:55.045340", "event": "app_shutdown"}
+2026-05-25T22:56:55 | app | INFO | {"timestamp": "2026-05-25T17:26:55.687129", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:57 | app | INFO | {"timestamp": "2026-05-25T17:26:57.315105", "event": "app_shutdown"}
+2026-05-25T22:56:58 | app | INFO | {"timestamp": "2026-05-25T17:26:58.018017", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:58 | app | INFO | {"timestamp": "2026-05-25T17:26:58.222569", "event": "app_shutdown"}
+2026-05-25T22:56:58 | app | INFO | {"timestamp": "2026-05-25T17:26:58.808134", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:56:59 | app | INFO | {"timestamp": "2026-05-25T17:26:59.112330", "event": "app_shutdown"}
+2026-05-25T22:56:59 | app | INFO | {"timestamp": "2026-05-25T17:26:59.695840", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:00 | app | INFO | {"timestamp": "2026-05-25T17:27:00.511321", "event": "app_shutdown"}
+2026-05-25T22:57:01 | app | INFO | {"timestamp": "2026-05-25T17:27:01.112803", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:02 | app | INFO | {"timestamp": "2026-05-25T17:27:02.232331", "event": "app_shutdown"}
+2026-05-25T22:57:02 | app | INFO | {"timestamp": "2026-05-25T17:27:02.821884", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:03 | app | INFO | {"timestamp": "2026-05-25T17:27:03.477246", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:03 | app | INFO | {"timestamp": "2026-05-25T17:27:03.784974", "event": "app_shutdown"}
+2026-05-25T22:57:04 | app | INFO | {"timestamp": "2026-05-25T17:27:04.361705", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:04 | app | INFO | {"timestamp": "2026-05-25T17:27:04.872045", "event": "app_shutdown"}
+2026-05-25T22:57:05 | app | INFO | {"timestamp": "2026-05-25T17:27:05.641212", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:10 | app | INFO | {"timestamp": "2026-05-25T17:27:10.011449", "event": "app_shutdown"}
+2026-05-25T22:57:10 | app | INFO | {"timestamp": "2026-05-25T17:27:10.553683", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:11 | app | INFO | {"timestamp": "2026-05-25T17:27:11.777923", "event": "app_shutdown"}
+2026-05-25T22:57:12 | app | INFO | {"timestamp": "2026-05-25T17:27:12.323768", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:12 | app | INFO | {"timestamp": "2026-05-25T17:27:12.848875", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:13 | app | INFO | {"timestamp": "2026-05-25T17:27:13.258656", "event": "app_shutdown"}
+2026-05-25T22:57:13 | app | INFO | {"timestamp": "2026-05-25T17:27:13.855830", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:25 | app | INFO | {"timestamp": "2026-05-25T17:27:25.042093", "event": "app_shutdown"}
+2026-05-25T22:57:25 | app | INFO | {"timestamp": "2026-05-25T17:27:25.874190", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:27 | app | INFO | {"timestamp": "2026-05-25T17:27:27.504055", "event": "app_shutdown"}
+2026-05-25T22:57:28 | app | INFO | {"timestamp": "2026-05-25T17:27:28.188360", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:29 | app | INFO | {"timestamp": "2026-05-25T17:27:29.206702", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:40 | app | INFO | {"timestamp": "2026-05-25T17:27:40.389024", "event": "app_shutdown"}
+2026-05-25T22:57:40 | app | INFO | {"timestamp": "2026-05-25T17:27:40.941480", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:41 | app | INFO | {"timestamp": "2026-05-25T17:27:41.453382", "event": "app_shutdown"}
+2026-05-25T22:57:41 | app | INFO | {"timestamp": "2026-05-25T17:27:41.978358", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:42 | app | INFO | {"timestamp": "2026-05-25T17:27:42.491523", "event": "app_shutdown"}
+2026-05-25T22:57:43 | app | INFO | {"timestamp": "2026-05-25T17:27:43.064369", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:57:44 | app | INFO | {"timestamp": "2026-05-25T17:27:44.087022", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:30 | app | INFO | {"timestamp": "2026-05-25T17:28:30.463165", "event": "app_shutdown"}
+2026-05-25T22:58:31 | app | INFO | {"timestamp": "2026-05-25T17:28:31.454430", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:32 | app | INFO | {"timestamp": "2026-05-25T17:28:32.165362", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:32 | app | INFO | {"timestamp": "2026-05-25T17:28:32.704863", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:33 | app | INFO | {"timestamp": "2026-05-25T17:28:33.620377", "event": "app_shutdown"}
+2026-05-25T22:58:34 | app | INFO | {"timestamp": "2026-05-25T17:28:34.352823", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:35 | app | INFO | {"timestamp": "2026-05-25T17:28:35.049787", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:35 | app | INFO | {"timestamp": "2026-05-25T17:28:35.863122", "event": "app_shutdown"}
+2026-05-25T22:58:36 | app | INFO | {"timestamp": "2026-05-25T17:28:36.514094", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:37 | app | INFO | {"timestamp": "2026-05-25T17:28:37.294469", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:38 | app | INFO | {"timestamp": "2026-05-25T17:28:38.007197", "event": "app_shutdown"}
+2026-05-25T22:58:38 | app | INFO | {"timestamp": "2026-05-25T17:28:38.544807", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:39 | app | INFO | {"timestamp": "2026-05-25T17:28:39.136418", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:40 | app | INFO | {"timestamp": "2026-05-25T17:28:40.094248", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:40 | app | INFO | {"timestamp": "2026-05-25T17:28:40.806720", "event": "app_shutdown"}
+2026-05-25T22:58:41 | app | INFO | {"timestamp": "2026-05-25T17:28:41.367762", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:42 | app | INFO | {"timestamp": "2026-05-25T17:28:42.000736", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:42 | app | INFO | {"timestamp": "2026-05-25T17:28:42.607344", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:43 | app | INFO | {"timestamp": "2026-05-25T17:28:43.668005", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:44 | app | INFO | {"timestamp": "2026-05-25T17:28:44.467083", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:44 | app | INFO | {"timestamp": "2026-05-25T17:28:44.669760", "event": "app_shutdown"}
+2026-05-25T22:58:45 | app | INFO | {"timestamp": "2026-05-25T17:28:45.381899", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:45 | app | INFO | {"timestamp": "2026-05-25T17:28:45.953632", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:50 | app | INFO | {"timestamp": "2026-05-25T17:28:50.829197", "event": "app_shutdown"}
+2026-05-25T22:58:51 | app | INFO | {"timestamp": "2026-05-25T17:28:51.375486", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:52 | app | INFO | {"timestamp": "2026-05-25T17:28:52.088557", "event": "app_shutdown"}
+2026-05-25T22:58:52 | app | INFO | {"timestamp": "2026-05-25T17:28:52.623747", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:58:54 | app | INFO | {"timestamp": "2026-05-25T17:28:54.152511", "event": "app_shutdown"}
+2026-05-25T22:58:54 | app | INFO | {"timestamp": "2026-05-25T17:28:54.983001", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:07 | app | INFO | {"timestamp": "2026-05-25T17:29:07.276863", "event": "app_shutdown"}
+2026-05-25T22:59:07 | app | INFO | {"timestamp": "2026-05-25T17:29:07.940502", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:08 | app | INFO | {"timestamp": "2026-05-25T17:29:08.755099", "event": "app_shutdown"}
+2026-05-25T22:59:09 | app | INFO | {"timestamp": "2026-05-25T17:29:09.332894", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:09 | app | INFO | {"timestamp": "2026-05-25T17:29:09.739731", "event": "app_shutdown"}
+2026-05-25T22:59:10 | app | INFO | {"timestamp": "2026-05-25T17:29:10.332165", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:11 | app | INFO | {"timestamp": "2026-05-25T17:29:11.507011", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:12 | app | INFO | {"timestamp": "2026-05-25T17:29:12.670701", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:26 | app | INFO | {"timestamp": "2026-05-25T17:29:26.601532", "event": "app_shutdown"}
+2026-05-25T22:59:27 | app | INFO | {"timestamp": "2026-05-25T17:29:27.271268", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:28 | app | INFO | {"timestamp": "2026-05-25T17:29:28.594287", "event": "app_shutdown"}
+2026-05-25T22:59:29 | app | INFO | {"timestamp": "2026-05-25T17:29:29.166032", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T22:59:29 | app | INFO | {"timestamp": "2026-05-25T17:29:29.726142", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:09 | app | INFO | {"timestamp": "2026-05-25T17:30:09.575344", "event": "app_shutdown"}
+2026-05-25T23:00:10 | app | INFO | {"timestamp": "2026-05-25T17:30:10.268566", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:10 | app | INFO | {"timestamp": "2026-05-25T17:30:10.574074", "event": "app_shutdown"}
+2026-05-25T23:00:11 | app | INFO | {"timestamp": "2026-05-25T17:30:11.473599", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:12 | app | INFO | {"timestamp": "2026-05-25T17:30:12.113344", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:13 | app | INFO | {"timestamp": "2026-05-25T17:30:13.231409", "event": "app_shutdown"}
+2026-05-25T23:00:13 | app | INFO | {"timestamp": "2026-05-25T17:30:13.790964", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:16 | app | INFO | {"timestamp": "2026-05-25T17:30:16.334026", "event": "app_shutdown"}
+2026-05-25T23:00:16 | app | INFO | {"timestamp": "2026-05-25T17:30:16.929011", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:17 | app | INFO | {"timestamp": "2026-05-25T17:30:17.947048", "event": "app_shutdown"}
+2026-05-25T23:00:18 | app | INFO | {"timestamp": "2026-05-25T17:30:18.509027", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:19 | app | INFO | {"timestamp": "2026-05-25T17:30:19.064123", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:19 | app | INFO | {"timestamp": "2026-05-25T17:30:19.268074", "event": "app_shutdown"}
+2026-05-25T23:00:19 | app | INFO | {"timestamp": "2026-05-25T17:30:19.821782", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:20 | app | INFO | {"timestamp": "2026-05-25T17:30:20.378873", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:20 | app | INFO | {"timestamp": "2026-05-25T17:30:20.941265", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:21 | app | INFO | {"timestamp": "2026-05-25T17:30:21.519535", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:23 | app | INFO | {"timestamp": "2026-05-25T17:30:23.047208", "event": "app_shutdown"}
+2026-05-25T23:00:23 | app | INFO | {"timestamp": "2026-05-25T17:30:23.732957", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:25 | app | INFO | {"timestamp": "2026-05-25T17:30:25.261473", "event": "app_shutdown"}
+2026-05-25T23:00:26 | app | INFO | {"timestamp": "2026-05-25T17:30:26.069145", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:26 | app | INFO | {"timestamp": "2026-05-25T17:30:26.703525", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:27 | app | INFO | {"timestamp": "2026-05-25T17:30:27.516277", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:28 | app | INFO | {"timestamp": "2026-05-25T17:30:28.050700", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:36 | app | INFO | {"timestamp": "2026-05-25T17:30:36.474635", "event": "app_shutdown"}
+2026-05-25T23:00:37 | app | INFO | {"timestamp": "2026-05-25T17:30:37.039106", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:37 | app | INFO | {"timestamp": "2026-05-25T17:30:37.549367", "event": "app_shutdown"}
+2026-05-25T23:00:38 | app | INFO | {"timestamp": "2026-05-25T17:30:38.070435", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:38 | app | INFO | {"timestamp": "2026-05-25T17:30:38.479146", "event": "app_shutdown"}
+2026-05-25T23:00:39 | app | INFO | {"timestamp": "2026-05-25T17:30:39.017506", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:39 | app | INFO | {"timestamp": "2026-05-25T17:30:39.916604", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:40 | app | INFO | {"timestamp": "2026-05-25T17:30:40.669540", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:54 | app | INFO | {"timestamp": "2026-05-25T17:30:54.179019", "event": "app_shutdown"}
+2026-05-25T23:00:54 | app | INFO | {"timestamp": "2026-05-25T17:30:54.844147", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:55 | app | INFO | {"timestamp": "2026-05-25T17:30:55.759966", "event": "app_shutdown"}
+2026-05-25T23:00:56 | app | INFO | {"timestamp": "2026-05-25T17:30:56.303875", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:00:56 | app | INFO | {"timestamp": "2026-05-25T17:30:56.713284", "event": "app_shutdown"}
+2026-05-25T23:00:57 | app | INFO | {"timestamp": "2026-05-25T17:30:57.334336", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:10 | app | INFO | {"timestamp": "2026-05-25T17:31:10.955185", "event": "app_shutdown"}
+2026-05-25T23:01:11 | app | INFO | {"timestamp": "2026-05-25T17:31:11.629446", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:51 | app | INFO | {"timestamp": "2026-05-25T17:31:51.654260", "event": "app_shutdown"}
+2026-05-25T23:01:52 | app | INFO | {"timestamp": "2026-05-25T17:31:52.335565", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:53 | app | INFO | {"timestamp": "2026-05-25T17:31:53.456208", "event": "app_shutdown"}
+2026-05-25T23:01:54 | app | INFO | {"timestamp": "2026-05-25T17:31:54.000048", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:54 | app | INFO | {"timestamp": "2026-05-25T17:31:54.538141", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:55 | app | INFO | {"timestamp": "2026-05-25T17:31:55.062116", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:56 | app | INFO | {"timestamp": "2026-05-25T17:31:56.184590", "event": "app_shutdown"}
+2026-05-25T23:01:56 | app | INFO | {"timestamp": "2026-05-25T17:31:56.885072", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:01:59 | app | INFO | {"timestamp": "2026-05-25T17:31:59.627317", "event": "app_shutdown"}
+2026-05-25T23:02:00 | app | INFO | {"timestamp": "2026-05-25T17:32:00.192851", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:00 | app | INFO | {"timestamp": "2026-05-25T17:32:00.904544", "event": "app_shutdown"}
+2026-05-25T23:02:01 | app | INFO | {"timestamp": "2026-05-25T17:32:01.449624", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:02 | app | INFO | {"timestamp": "2026-05-25T17:32:02.357989", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:03 | app | INFO | {"timestamp": "2026-05-25T17:32:03.170233", "event": "app_shutdown"}
+2026-05-25T23:02:03 | app | INFO | {"timestamp": "2026-05-25T17:32:03.730200", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:04 | app | INFO | {"timestamp": "2026-05-25T17:32:04.415354", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:04 | app | INFO | {"timestamp": "2026-05-25T17:32:04.956982", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:05 | app | INFO | {"timestamp": "2026-05-25T17:32:05.797519", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:06 | app | INFO | {"timestamp": "2026-05-25T17:32:06.831633", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:07 | app | INFO | {"timestamp": "2026-05-25T17:32:07.428320", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:08 | app | INFO | {"timestamp": "2026-05-25T17:32:08.256171", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:08 | app | INFO | {"timestamp": "2026-05-25T17:32:08.947343", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:09 | app | INFO | {"timestamp": "2026-05-25T17:32:09.502877", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:10 | app | INFO | {"timestamp": "2026-05-25T17:32:10.077818", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:10 | app | INFO | {"timestamp": "2026-05-25T17:32:10.585526", "event": "app_shutdown"}
+2026-05-25T23:02:11 | app | INFO | {"timestamp": "2026-05-25T17:32:11.209483", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:11 | app | INFO | {"timestamp": "2026-05-25T17:32:11.966203", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:14 | app | INFO | {"timestamp": "2026-05-25T17:32:14.817009", "event": "app_shutdown"}
+2026-05-25T23:02:15 | app | INFO | {"timestamp": "2026-05-25T17:32:15.358388", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:16 | app | INFO | {"timestamp": "2026-05-25T17:32:16.070181", "event": "app_shutdown"}
+2026-05-25T23:02:16 | app | INFO | {"timestamp": "2026-05-25T17:32:16.609853", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:17 | app | INFO | {"timestamp": "2026-05-25T17:32:17.017312", "event": "app_shutdown"}
+2026-05-25T23:02:17 | app | INFO | {"timestamp": "2026-05-25T17:32:17.560784", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:18 | app | INFO | {"timestamp": "2026-05-25T17:32:18.205704", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:19 | app | INFO | {"timestamp": "2026-05-25T17:32:19.053407", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:30 | app | INFO | {"timestamp": "2026-05-25T17:32:30.027956", "event": "app_shutdown"}
+2026-05-25T23:02:30 | app | INFO | {"timestamp": "2026-05-25T17:32:30.666677", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:32 | app | INFO | {"timestamp": "2026-05-25T17:32:32.093220", "event": "app_shutdown"}
+2026-05-25T23:02:32 | app | INFO | {"timestamp": "2026-05-25T17:32:32.633317", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:32 | app | INFO | {"timestamp": "2026-05-25T17:32:32.836968", "event": "app_shutdown"}
+2026-05-25T23:02:33 | app | INFO | {"timestamp": "2026-05-25T17:32:33.752135", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:45 | app | INFO | {"timestamp": "2026-05-25T17:32:45.730489", "event": "app_shutdown"}
+2026-05-25T23:02:46 | app | INFO | {"timestamp": "2026-05-25T17:32:46.418826", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:47 | app | INFO | {"timestamp": "2026-05-25T17:32:47.002559", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:47 | app | INFO | {"timestamp": "2026-05-25T17:32:47.513151", "event": "app_shutdown"}
+2026-05-25T23:02:48 | app | INFO | {"timestamp": "2026-05-25T17:32:48.118296", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:49 | app | INFO | {"timestamp": "2026-05-25T17:32:49.537756", "event": "app_shutdown"}
+2026-05-25T23:02:50 | app | INFO | {"timestamp": "2026-05-25T17:32:50.412192", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:50 | app | INFO | {"timestamp": "2026-05-25T17:32:50.948310", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:02:51 | app | INFO | {"timestamp": "2026-05-25T17:32:51.153708", "event": "app_shutdown"}
+2026-05-25T23:02:51 | app | INFO | {"timestamp": "2026-05-25T17:32:51.701749", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:34 | app | INFO | {"timestamp": "2026-05-25T17:33:34.006925", "event": "app_shutdown"}
+2026-05-25T23:03:34 | app | INFO | {"timestamp": "2026-05-25T17:33:34.874042", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:35 | app | INFO | {"timestamp": "2026-05-25T17:33:35.446351", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:37 | app | INFO | {"timestamp": "2026-05-25T17:33:37.476133", "event": "app_shutdown"}
+2026-05-25T23:03:38 | app | INFO | {"timestamp": "2026-05-25T17:33:38.019673", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:38 | app | INFO | {"timestamp": "2026-05-25T17:33:38.782049", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:39 | app | INFO | {"timestamp": "2026-05-25T17:33:39.597224", "event": "app_shutdown"}
+2026-05-25T23:03:40 | app | INFO | {"timestamp": "2026-05-25T17:33:40.309565", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:40 | app | INFO | {"timestamp": "2026-05-25T17:33:40.922191", "event": "app_shutdown"}
+2026-05-25T23:03:41 | app | INFO | {"timestamp": "2026-05-25T17:33:41.514883", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:42 | app | INFO | {"timestamp": "2026-05-25T17:33:42.082930", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:42 | app | INFO | {"timestamp": "2026-05-25T17:33:42.636840", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:42 | app | INFO | {"timestamp": "2026-05-25T17:33:42.839964", "event": "app_shutdown"}
+2026-05-25T23:03:43 | app | INFO | {"timestamp": "2026-05-25T17:33:43.398963", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:44 | app | INFO | {"timestamp": "2026-05-25T17:33:44.047735", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:44 | app | INFO | {"timestamp": "2026-05-25T17:33:44.562297", "event": "app_shutdown"}
+2026-05-25T23:03:45 | app | INFO | {"timestamp": "2026-05-25T17:33:45.141322", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:45 | app | INFO | {"timestamp": "2026-05-25T17:33:45.650052", "event": "app_shutdown"}
+2026-05-25T23:03:46 | app | INFO | {"timestamp": "2026-05-25T17:33:46.732135", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:03:47 | app | INFO | {"timestamp": "2026-05-25T17:33:47.494972", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:04:37 | app | INFO | {"timestamp": "2026-05-25T17:34:37.880395", "event": "app_shutdown"}
+2026-05-25T23:04:39 | app | INFO | {"timestamp": "2026-05-25T17:34:39.094935", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:04:39 | app | INFO | {"timestamp": "2026-05-25T17:34:39.707619", "event": "app_shutdown"}
+2026-05-25T23:04:40 | app | INFO | {"timestamp": "2026-05-25T17:34:40.443299", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:05:28 | app | INFO | {"timestamp": "2026-05-25T17:35:28.813965", "event": "app_shutdown"}
+2026-05-25T23:05:29 | app | INFO | {"timestamp": "2026-05-25T17:35:29.652530", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:05:30 | app | INFO | {"timestamp": "2026-05-25T17:35:30.186201", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:05:30 | app | INFO | {"timestamp": "2026-05-25T17:35:30.727514", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:05:31 | app | INFO | {"timestamp": "2026-05-25T17:35:31.337397", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:05:32 | app | INFO | {"timestamp": "2026-05-25T17:35:32.121552", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:05:32 | app | INFO | {"timestamp": "2026-05-25T17:35:32.913452", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:22 | app | INFO | {"timestamp": "2026-05-25T17:41:22.194104", "event": "app_shutdown"}
+2026-05-25T23:11:23 | app | INFO | {"timestamp": "2026-05-25T17:41:23.072309", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:23 | app | INFO | {"timestamp": "2026-05-25T17:41:23.579367", "event": "app_shutdown"}
+2026-05-25T23:11:24 | app | INFO | {"timestamp": "2026-05-25T17:41:24.126382", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:24 | app | INFO | {"timestamp": "2026-05-25T17:41:24.654220", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:25 | app | INFO | {"timestamp": "2026-05-25T17:41:25.189932", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:25 | app | INFO | {"timestamp": "2026-05-25T17:41:25.817565", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:26 | app | INFO | {"timestamp": "2026-05-25T17:41:26.530302", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:37 | app | INFO | {"timestamp": "2026-05-25T17:41:37.341625", "event": "app_shutdown"}
+2026-05-25T23:11:37 | app | INFO | {"timestamp": "2026-05-25T17:41:37.890768", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:39 | app | INFO | {"timestamp": "2026-05-25T17:41:39.003697", "event": "app_shutdown"}
+2026-05-25T23:11:39 | app | INFO | {"timestamp": "2026-05-25T17:41:39.548441", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:39 | app | INFO | {"timestamp": "2026-05-25T17:41:39.750200", "event": "app_shutdown"}
+2026-05-25T23:11:40 | app | INFO | {"timestamp": "2026-05-25T17:41:40.651512", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:51 | app | INFO | {"timestamp": "2026-05-25T17:41:51.964719", "event": "app_shutdown"}
+2026-05-25T23:11:52 | app | INFO | {"timestamp": "2026-05-25T17:41:52.634968", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:54 | app | INFO | {"timestamp": "2026-05-25T17:41:54.454793", "event": "app_shutdown"}
+2026-05-25T23:11:55 | app | INFO | {"timestamp": "2026-05-25T17:41:55.296376", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:55 | app | INFO | {"timestamp": "2026-05-25T17:41:55.701463", "event": "app_shutdown"}
+2026-05-25T23:11:56 | app | INFO | {"timestamp": "2026-05-25T17:41:56.280494", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:11:56 | app | INFO | {"timestamp": "2026-05-25T17:41:56.900424", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:32 | app | INFO | {"timestamp": "2026-05-25T17:42:32.659675", "event": "app_shutdown"}
+2026-05-25T23:12:33 | app | INFO | {"timestamp": "2026-05-25T17:42:33.571174", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:37 | app | INFO | {"timestamp": "2026-05-25T17:42:37.713369", "event": "app_shutdown"}
+2026-05-25T23:12:38 | app | INFO | {"timestamp": "2026-05-25T17:42:38.523761", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:39 | app | INFO | {"timestamp": "2026-05-25T17:42:39.231261", "event": "app_shutdown"}
+2026-05-25T23:12:39 | app | INFO | {"timestamp": "2026-05-25T17:42:39.843521", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:40 | app | INFO | {"timestamp": "2026-05-25T17:42:40.724583", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:41 | app | INFO | {"timestamp": "2026-05-25T17:42:41.231797", "event": "app_shutdown"}
+2026-05-25T23:12:41 | app | INFO | {"timestamp": "2026-05-25T17:42:41.810093", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:42 | app | INFO | {"timestamp": "2026-05-25T17:42:42.382403", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:42 | app | INFO | {"timestamp": "2026-05-25T17:42:42.951119", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:44 | app | INFO | {"timestamp": "2026-05-25T17:42:44.771364", "event": "app_shutdown"}
+2026-05-25T23:12:45 | app | INFO | {"timestamp": "2026-05-25T17:42:45.382439", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:46 | app | INFO | {"timestamp": "2026-05-25T17:42:46.492932", "event": "app_shutdown"}
+2026-05-25T23:12:47 | app | INFO | {"timestamp": "2026-05-25T17:42:47.068148", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:48 | app | INFO | {"timestamp": "2026-05-25T17:42:48.053871", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:48 | app | INFO | {"timestamp": "2026-05-25T17:42:48.951910", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:49 | app | INFO | {"timestamp": "2026-05-25T17:42:49.772108", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:50 | app | INFO | {"timestamp": "2026-05-25T17:42:50.366358", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:51 | app | INFO | {"timestamp": "2026-05-25T17:42:51.289285", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:12:59 | app | INFO | {"timestamp": "2026-05-25T17:42:59.167436", "event": "app_shutdown"}
+2026-05-25T23:12:59 | app | INFO | {"timestamp": "2026-05-25T17:42:59.714495", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:01 | app | INFO | {"timestamp": "2026-05-25T17:43:01.029580", "event": "app_shutdown"}
+2026-05-25T23:13:01 | app | INFO | {"timestamp": "2026-05-25T17:43:01.588902", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:01 | app | INFO | {"timestamp": "2026-05-25T17:43:01.792005", "event": "app_shutdown"}
+2026-05-25T23:13:02 | app | INFO | {"timestamp": "2026-05-25T17:43:02.403650", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:03 | app | INFO | {"timestamp": "2026-05-25T17:43:03.162953", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:03 | app | INFO | {"timestamp": "2026-05-25T17:43:03.686542", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:14 | app | INFO | {"timestamp": "2026-05-25T17:43:14.290777", "event": "app_shutdown"}
+2026-05-25T23:13:14 | app | INFO | {"timestamp": "2026-05-25T17:43:14.840166", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:16 | app | INFO | {"timestamp": "2026-05-25T17:43:16.656838", "event": "app_shutdown"}
+2026-05-25T23:13:17 | app | INFO | {"timestamp": "2026-05-25T17:43:17.205509", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:17 | app | INFO | {"timestamp": "2026-05-25T17:43:17.819825", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:18 | app | INFO | {"timestamp": "2026-05-25T17:43:18.123986", "event": "app_shutdown"}
+2026-05-25T23:13:18 | app | INFO | {"timestamp": "2026-05-25T17:43:18.684988", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:28 | app | INFO | {"timestamp": "2026-05-25T17:43:28.484771", "event": "app_shutdown"}
+2026-05-25T23:13:29 | app | INFO | {"timestamp": "2026-05-25T17:43:29.177030", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:29 | app | INFO | {"timestamp": "2026-05-25T17:43:29.736827", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:13:30 | app | INFO | {"timestamp": "2026-05-25T17:43:30.547500", "event": "app_shutdown"}
+2026-05-25T23:13:31 | app | INFO | {"timestamp": "2026-05-25T17:43:31.234989", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:13 | app | INFO | {"timestamp": "2026-05-25T17:44:13.364351", "event": "app_shutdown"}
+2026-05-25T23:14:14 | app | INFO | {"timestamp": "2026-05-25T17:44:14.648162", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:16 | app | INFO | {"timestamp": "2026-05-25T17:44:16.772428", "event": "app_shutdown"}
+2026-05-25T23:14:17 | app | INFO | {"timestamp": "2026-05-25T17:44:17.510172", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:18 | app | INFO | {"timestamp": "2026-05-25T17:44:18.419300", "event": "app_shutdown"}
+2026-05-25T23:14:19 | app | INFO | {"timestamp": "2026-05-25T17:44:19.004900", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:19 | app | INFO | {"timestamp": "2026-05-25T17:44:19.309032", "event": "app_shutdown"}
+2026-05-25T23:14:19 | app | INFO | {"timestamp": "2026-05-25T17:44:19.903508", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:20 | app | INFO | {"timestamp": "2026-05-25T17:44:20.459775", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:21 | app | INFO | {"timestamp": "2026-05-25T17:44:21.167134", "event": "app_shutdown"}
+2026-05-25T23:14:21 | app | INFO | {"timestamp": "2026-05-25T17:44:21.753497", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:22 | app | INFO | {"timestamp": "2026-05-25T17:44:22.550157", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:23 | app | INFO | {"timestamp": "2026-05-25T17:44:23.057619", "event": "app_shutdown"}
+2026-05-25T23:14:23 | app | INFO | {"timestamp": "2026-05-25T17:44:23.641885", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:24 | app | INFO | {"timestamp": "2026-05-25T17:44:24.177977", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:24 | app | INFO | {"timestamp": "2026-05-25T17:44:24.482402", "event": "app_shutdown"}
+2026-05-25T23:14:25 | app | INFO | {"timestamp": "2026-05-25T17:44:25.064198", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:25 | app | INFO | {"timestamp": "2026-05-25T17:44:25.785023", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:26 | app | INFO | {"timestamp": "2026-05-25T17:44:26.412343", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:26 | app | INFO | {"timestamp": "2026-05-25T17:44:26.614084", "event": "app_shutdown"}
+2026-05-25T23:14:27 | app | INFO | {"timestamp": "2026-05-25T17:44:27.194893", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:27 | app | INFO | {"timestamp": "2026-05-25T17:44:27.798902", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:28 | app | INFO | {"timestamp": "2026-05-25T17:44:28.435862", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:29 | app | INFO | {"timestamp": "2026-05-25T17:44:29.006595", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:35 | app | INFO | {"timestamp": "2026-05-25T17:44:35.064502", "event": "app_shutdown"}
+2026-05-25T23:14:35 | app | INFO | {"timestamp": "2026-05-25T17:44:35.623122", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:36 | app | INFO | {"timestamp": "2026-05-25T17:44:36.734577", "event": "app_shutdown"}
+2026-05-25T23:14:37 | app | INFO | {"timestamp": "2026-05-25T17:44:37.286311", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:37 | app | INFO | {"timestamp": "2026-05-25T17:44:37.815374", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:38 | app | INFO | {"timestamp": "2026-05-25T17:44:38.365484", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:39 | app | INFO | {"timestamp": "2026-05-25T17:44:39.072310", "event": "app_shutdown"}
+2026-05-25T23:14:39 | app | INFO | {"timestamp": "2026-05-25T17:44:39.714212", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:50 | app | INFO | {"timestamp": "2026-05-25T17:44:50.121693", "event": "app_shutdown"}
+2026-05-25T23:14:50 | app | INFO | {"timestamp": "2026-05-25T17:44:50.804915", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:52 | app | INFO | {"timestamp": "2026-05-25T17:44:52.724617", "event": "app_shutdown"}
+2026-05-25T23:14:53 | app | INFO | {"timestamp": "2026-05-25T17:44:53.450052", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:54 | app | INFO | {"timestamp": "2026-05-25T17:44:54.018618", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:14:55 | app | INFO | {"timestamp": "2026-05-25T17:44:55.863224", "event": "app_shutdown"}
+2026-05-25T23:14:56 | app | INFO | {"timestamp": "2026-05-25T17:44:56.737134", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:06 | app | INFO | {"timestamp": "2026-05-25T17:45:06.230036", "event": "app_shutdown"}
+2026-05-25T23:15:06 | app | INFO | {"timestamp": "2026-05-25T17:45:06.805600", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:08 | app | INFO | {"timestamp": "2026-05-25T17:45:08.725672", "event": "app_shutdown"}
+2026-05-25T23:15:09 | app | INFO | {"timestamp": "2026-05-25T17:45:09.309793", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:09 | app | INFO | {"timestamp": "2026-05-25T17:45:09.815734", "event": "app_shutdown"}
+2026-05-25T23:15:10 | app | INFO | {"timestamp": "2026-05-25T17:45:10.463216", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:53 | app | INFO | {"timestamp": "2026-05-25T17:45:53.041053", "event": "app_shutdown"}
+2026-05-25T23:15:54 | app | INFO | {"timestamp": "2026-05-25T17:45:54.150834", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:56 | app | INFO | {"timestamp": "2026-05-25T17:45:56.878296", "event": "app_shutdown"}
+2026-05-25T23:15:57 | app | INFO | {"timestamp": "2026-05-25T17:45:57.819202", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:58 | app | INFO | {"timestamp": "2026-05-25T17:45:58.432862", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:15:59 | app | INFO | {"timestamp": "2026-05-25T17:45:59.241879", "event": "app_shutdown"}
+2026-05-25T23:15:59 | app | INFO | {"timestamp": "2026-05-25T17:45:59.857935", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:00 | app | INFO | {"timestamp": "2026-05-25T17:46:00.481134", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:02 | app | INFO | {"timestamp": "2026-05-25T17:46:02.907578", "event": "app_shutdown"}
+2026-05-25T23:16:03 | app | INFO | {"timestamp": "2026-05-25T17:46:03.678571", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:03 | app | INFO | {"timestamp": "2026-05-25T17:46:03.981845", "event": "app_shutdown"}
+2026-05-25T23:16:04 | app | INFO | {"timestamp": "2026-05-25T17:46:04.816571", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:05 | app | INFO | {"timestamp": "2026-05-25T17:46:05.842240", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:06 | app | INFO | {"timestamp": "2026-05-25T17:46:06.616113", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:07 | app | INFO | {"timestamp": "2026-05-25T17:46:07.711096", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:08 | app | INFO | {"timestamp": "2026-05-25T17:46:08.485826", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:09 | app | INFO | {"timestamp": "2026-05-25T17:46:09.049112", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:09 | app | INFO | {"timestamp": "2026-05-25T17:46:09.252551", "event": "app_shutdown"}
+2026-05-25T23:16:10 | app | INFO | {"timestamp": "2026-05-25T17:46:10.216861", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:10 | app | INFO | {"timestamp": "2026-05-25T17:46:10.948724", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:11 | app | INFO | {"timestamp": "2026-05-25T17:46:11.506769", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:11 | app | INFO | {"timestamp": "2026-05-25T17:46:11.911979", "event": "app_shutdown"}
+2026-05-25T23:16:12 | app | INFO | {"timestamp": "2026-05-25T17:46:12.479395", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:16 | app | INFO | {"timestamp": "2026-05-25T17:46:16.721059", "event": "app_shutdown"}
+2026-05-25T23:16:17 | app | INFO | {"timestamp": "2026-05-25T17:46:17.274442", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:17 | app | INFO | {"timestamp": "2026-05-25T17:46:17.808687", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:19 | app | INFO | {"timestamp": "2026-05-25T17:46:19.022963", "event": "app_shutdown"}
+2026-05-25T23:16:19 | app | INFO | {"timestamp": "2026-05-25T17:46:19.554918", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:20 | app | INFO | {"timestamp": "2026-05-25T17:46:20.449448", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:21 | app | INFO | {"timestamp": "2026-05-25T17:46:21.188728", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:31 | app | INFO | {"timestamp": "2026-05-25T17:46:31.892337", "event": "app_shutdown"}
+2026-05-25T23:16:32 | app | INFO | {"timestamp": "2026-05-25T17:46:32.543867", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:34 | app | INFO | {"timestamp": "2026-05-25T17:46:34.362327", "event": "app_shutdown"}
+2026-05-25T23:16:34 | app | INFO | {"timestamp": "2026-05-25T17:46:34.938901", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:36 | app | INFO | {"timestamp": "2026-05-25T17:46:36.000317", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:37 | app | INFO | {"timestamp": "2026-05-25T17:46:37.023283", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:37 | app | INFO | {"timestamp": "2026-05-25T17:46:37.692957", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:48 | app | INFO | {"timestamp": "2026-05-25T17:46:48.098894", "event": "app_shutdown"}
+2026-05-25T23:16:48 | app | INFO | {"timestamp": "2026-05-25T17:46:48.766394", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:49 | app | INFO | {"timestamp": "2026-05-25T17:46:49.294034", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:50 | app | INFO | {"timestamp": "2026-05-25T17:46:50.204641", "event": "app_shutdown"}
+2026-05-25T23:16:50 | app | INFO | {"timestamp": "2026-05-25T17:46:50.747516", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:51 | app | INFO | {"timestamp": "2026-05-25T17:46:51.152065", "event": "app_shutdown"}
+2026-05-25T23:16:51 | app | INFO | {"timestamp": "2026-05-25T17:46:51.760740", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:16:52 | app | INFO | {"timestamp": "2026-05-25T17:46:52.348057", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:31 | app | INFO | {"timestamp": "2026-05-25T17:47:31.346820", "event": "app_shutdown"}
+2026-05-25T23:17:32 | app | INFO | {"timestamp": "2026-05-25T17:47:32.149069", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:33 | app | INFO | {"timestamp": "2026-05-25T17:47:33.970111", "event": "app_shutdown"}
+2026-05-25T23:17:34 | app | INFO | {"timestamp": "2026-05-25T17:47:34.540853", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:35 | app | INFO | {"timestamp": "2026-05-25T17:47:35.249427", "event": "app_shutdown"}
+2026-05-25T23:17:35 | app | INFO | {"timestamp": "2026-05-25T17:47:35.802688", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:36 | app | INFO | {"timestamp": "2026-05-25T17:47:36.345624", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:38 | app | INFO | {"timestamp": "2026-05-25T17:47:38.164668", "event": "app_shutdown"}
+2026-05-25T23:17:38 | app | INFO | {"timestamp": "2026-05-25T17:47:38.783008", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:39 | app | INFO | {"timestamp": "2026-05-25T17:47:39.536112", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:39 | app | INFO | {"timestamp": "2026-05-25T17:47:39.739002", "event": "app_shutdown"}
+2026-05-25T23:17:40 | app | INFO | {"timestamp": "2026-05-25T17:47:40.319560", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:40 | app | INFO | {"timestamp": "2026-05-25T17:47:40.863388", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:41 | app | INFO | {"timestamp": "2026-05-25T17:47:41.416321", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:42 | app | INFO | {"timestamp": "2026-05-25T17:47:42.023833", "event": "app_shutdown"}
+2026-05-25T23:17:42 | app | INFO | {"timestamp": "2026-05-25T17:47:42.596428", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:43 | app | INFO | {"timestamp": "2026-05-25T17:47:43.101239", "event": "app_shutdown"}
+2026-05-25T23:17:43 | app | INFO | {"timestamp": "2026-05-25T17:47:43.997946", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:44 | app | INFO | {"timestamp": "2026-05-25T17:47:44.633317", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:55 | app | INFO | {"timestamp": "2026-05-25T17:47:55.442823", "event": "app_shutdown"}
+2026-05-25T23:17:56 | app | INFO | {"timestamp": "2026-05-25T17:47:56.097983", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:58 | app | INFO | {"timestamp": "2026-05-25T17:47:58.120591", "event": "app_shutdown"}
+2026-05-25T23:17:58 | app | INFO | {"timestamp": "2026-05-25T17:47:58.841298", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:17:59 | app | INFO | {"timestamp": "2026-05-25T17:47:59.622569", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:00 | app | INFO | {"timestamp": "2026-05-25T17:48:00.320258", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:01 | app | INFO | {"timestamp": "2026-05-25T17:48:01.044096", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:09 | app | INFO | {"timestamp": "2026-05-25T17:48:09.928402", "event": "app_shutdown"}
+2026-05-25T23:18:10 | app | INFO | {"timestamp": "2026-05-25T17:48:10.587063", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:11 | app | INFO | {"timestamp": "2026-05-25T17:48:11.170217", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:11 | app | INFO | {"timestamp": "2026-05-25T17:48:11.878933", "event": "app_shutdown"}
+2026-05-25T23:18:12 | app | INFO | {"timestamp": "2026-05-25T17:48:12.433230", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:13 | app | INFO | {"timestamp": "2026-05-25T17:48:13.011517", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:13 | app | INFO | {"timestamp": "2026-05-25T17:48:13.592934", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:18:14 | app | INFO | {"timestamp": "2026-05-25T17:48:14.401284", "event": "app_shutdown"}
+2026-05-25T23:18:15 | app | INFO | {"timestamp": "2026-05-25T17:48:15.093314", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:10 | app | INFO | {"timestamp": "2026-05-25T17:49:10.741788", "event": "app_shutdown"}
+2026-05-25T23:19:12 | app | INFO | {"timestamp": "2026-05-25T17:49:12.324509", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:15 | app | INFO | {"timestamp": "2026-05-25T17:49:15.861976", "event": "app_shutdown"}
+2026-05-25T23:19:16 | app | INFO | {"timestamp": "2026-05-25T17:49:16.984583", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:18 | app | INFO | {"timestamp": "2026-05-25T17:49:18.109854", "event": "app_shutdown"}
+2026-05-25T23:19:19 | app | INFO | {"timestamp": "2026-05-25T17:49:19.359084", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:20 | app | INFO | {"timestamp": "2026-05-25T17:49:20.223912", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:22 | app | INFO | {"timestamp": "2026-05-25T17:49:22.667425", "event": "app_shutdown"}
+2026-05-25T23:19:23 | app | INFO | {"timestamp": "2026-05-25T17:49:23.320392", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:23 | app | INFO | {"timestamp": "2026-05-25T17:49:23.880265", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:24 | app | INFO | {"timestamp": "2026-05-25T17:49:24.487922", "event": "app_shutdown"}
+2026-05-25T23:19:25 | app | INFO | {"timestamp": "2026-05-25T17:49:25.271743", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:25 | app | INFO | {"timestamp": "2026-05-25T17:49:25.576402", "event": "app_shutdown"}
+2026-05-25T23:19:26 | app | INFO | {"timestamp": "2026-05-25T17:49:26.139292", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:27 | app | INFO | {"timestamp": "2026-05-25T17:49:27.250478", "event": "app_shutdown"}
+2026-05-25T23:19:27 | app | INFO | {"timestamp": "2026-05-25T17:49:27.848423", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:28 | app | INFO | {"timestamp": "2026-05-25T17:49:28.463779", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:29 | app | INFO | {"timestamp": "2026-05-25T17:49:29.209643", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:29 | app | INFO | {"timestamp": "2026-05-25T17:49:29.412650", "event": "app_shutdown"}
+2026-05-25T23:19:30 | app | INFO | {"timestamp": "2026-05-25T17:49:30.070864", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:31 | app | INFO | {"timestamp": "2026-05-25T17:49:31.865620", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:35 | app | INFO | {"timestamp": "2026-05-25T17:49:35.626797", "event": "app_shutdown"}
+2026-05-25T23:19:36 | app | INFO | {"timestamp": "2026-05-25T17:49:36.292890", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:37 | app | INFO | {"timestamp": "2026-05-25T17:49:37.113384", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:39 | app | INFO | {"timestamp": "2026-05-25T17:49:39.696951", "event": "app_shutdown"}
+2026-05-25T23:19:40 | app | INFO | {"timestamp": "2026-05-25T17:49:40.370538", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:41 | app | INFO | {"timestamp": "2026-05-25T17:49:41.281889", "event": "app_shutdown"}
+2026-05-25T23:19:41 | app | INFO | {"timestamp": "2026-05-25T17:49:41.888040", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:42 | app | INFO | {"timestamp": "2026-05-25T17:49:42.876235", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:43 | app | INFO | {"timestamp": "2026-05-25T17:49:43.633176", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:45 | app | INFO | {"timestamp": "2026-05-25T17:49:45.635046", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:19:57 | app | INFO | {"timestamp": "2026-05-25T17:49:57.651503", "event": "app_shutdown"}
+2026-05-25T23:19:59 | app | INFO | {"timestamp": "2026-05-25T17:49:59.431359", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:00 | app | INFO | {"timestamp": "2026-05-25T17:50:00.010595", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:00 | app | INFO | {"timestamp": "2026-05-25T17:50:00.315321", "event": "app_shutdown"}
+2026-05-25T23:20:00 | app | INFO | {"timestamp": "2026-05-25T17:50:00.858419", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:02 | app | INFO | {"timestamp": "2026-05-25T17:50:02.676658", "event": "app_shutdown"}
+2026-05-25T23:20:03 | app | INFO | {"timestamp": "2026-05-25T17:50:03.229690", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:04 | app | INFO | {"timestamp": "2026-05-25T17:50:04.520534", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:07 | app | INFO | {"timestamp": "2026-05-25T17:50:07.662988", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:08 | app | INFO | {"timestamp": "2026-05-25T17:50:08.618766", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:20:09 | app | INFO | {"timestamp": "2026-05-25T17:50:09.200823", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:04 | app | INFO | {"timestamp": "2026-05-25T17:51:04.125397", "event": "app_shutdown"}
+2026-05-25T23:21:05 | app | INFO | {"timestamp": "2026-05-25T17:51:05.563660", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:08 | app | INFO | {"timestamp": "2026-05-25T17:51:08.192961", "event": "app_shutdown"}
+2026-05-25T23:21:09 | app | INFO | {"timestamp": "2026-05-25T17:51:09.160915", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:10 | app | INFO | {"timestamp": "2026-05-25T17:51:10.979866", "event": "app_shutdown"}
+2026-05-25T23:21:11 | app | INFO | {"timestamp": "2026-05-25T17:51:11.558560", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:12 | app | INFO | {"timestamp": "2026-05-25T17:51:12.141920", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:12 | app | INFO | {"timestamp": "2026-05-25T17:51:12.446014", "event": "app_shutdown"}
+2026-05-25T23:21:13 | app | INFO | {"timestamp": "2026-05-25T17:51:13.071733", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:13 | app | INFO | {"timestamp": "2026-05-25T17:51:13.780810", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:14 | app | INFO | {"timestamp": "2026-05-25T17:51:14.586438", "event": "app_shutdown"}
+2026-05-25T23:21:15 | app | INFO | {"timestamp": "2026-05-25T17:51:15.372502", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:16 | app | INFO | {"timestamp": "2026-05-25T17:51:16.486733", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:17 | app | INFO | {"timestamp": "2026-05-25T17:51:17.599599", "event": "app_shutdown"}
+2026-05-25T23:21:18 | app | INFO | {"timestamp": "2026-05-25T17:51:18.182858", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:19 | app | INFO | {"timestamp": "2026-05-25T17:51:19.394162", "event": "app_shutdown"}
+2026-05-25T23:21:20 | app | INFO | {"timestamp": "2026-05-25T17:51:20.370941", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:21 | app | INFO | {"timestamp": "2026-05-25T17:51:21.172631", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:22 | app | INFO | {"timestamp": "2026-05-25T17:51:22.386403", "event": "app_shutdown"}
+2026-05-25T23:21:23 | app | INFO | {"timestamp": "2026-05-25T17:51:23.014228", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:23 | app | INFO | {"timestamp": "2026-05-25T17:51:23.683153", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:23 | app | INFO | {"timestamp": "2026-05-25T17:51:23.886884", "event": "app_shutdown"}
+2026-05-25T23:21:24 | app | INFO | {"timestamp": "2026-05-25T17:51:24.787869", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:25 | app | INFO | {"timestamp": "2026-05-25T17:51:25.848292", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:26 | app | INFO | {"timestamp": "2026-05-25T17:51:26.856078", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:28 | app | INFO | {"timestamp": "2026-05-25T17:51:28.066120", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:29 | app | INFO | {"timestamp": "2026-05-25T17:51:29.067824", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:29 | app | INFO | {"timestamp": "2026-05-25T17:51:29.742678", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:32 | app | INFO | {"timestamp": "2026-05-25T17:51:32.779201", "event": "app_shutdown"}
+2026-05-25T23:21:33 | app | INFO | {"timestamp": "2026-05-25T17:51:33.326031", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:33 | app | INFO | {"timestamp": "2026-05-25T17:51:33.895856", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:34 | app | INFO | {"timestamp": "2026-05-25T17:51:34.806079", "event": "app_shutdown"}
+2026-05-25T23:21:35 | app | INFO | {"timestamp": "2026-05-25T17:51:35.429495", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:36 | app | INFO | {"timestamp": "2026-05-25T17:51:36.065630", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:36 | app | INFO | {"timestamp": "2026-05-25T17:51:36.671668", "event": "app_shutdown"}
+2026-05-25T23:21:37 | app | INFO | {"timestamp": "2026-05-25T17:51:37.320043", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:37 | app | INFO | {"timestamp": "2026-05-25T17:51:37.522266", "event": "app_shutdown"}
+2026-05-25T23:21:38 | app | INFO | {"timestamp": "2026-05-25T17:51:38.462097", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:49 | app | INFO | {"timestamp": "2026-05-25T17:51:49.378450", "event": "app_shutdown"}
+2026-05-25T23:21:49 | app | INFO | {"timestamp": "2026-05-25T17:51:49.933357", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:52 | app | INFO | {"timestamp": "2026-05-25T17:51:52.764000", "event": "app_shutdown"}
+2026-05-25T23:21:53 | app | INFO | {"timestamp": "2026-05-25T17:51:53.389130", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:53 | app | INFO | {"timestamp": "2026-05-25T17:51:53.990774", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:54 | app | INFO | {"timestamp": "2026-05-25T17:51:54.700671", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:21:55 | app | INFO | {"timestamp": "2026-05-25T17:51:55.286864", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:44 | app | INFO | {"timestamp": "2026-05-25T17:52:44.997551", "event": "app_shutdown"}
+2026-05-25T23:22:46 | app | INFO | {"timestamp": "2026-05-25T17:52:46.204604", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:46 | app | INFO | {"timestamp": "2026-05-25T17:52:46.935444", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:49 | app | INFO | {"timestamp": "2026-05-25T17:52:49.160421", "event": "app_shutdown"}
+2026-05-25T23:22:50 | app | INFO | {"timestamp": "2026-05-25T17:52:50.077063", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:52 | app | INFO | {"timestamp": "2026-05-25T17:52:52.601652", "event": "app_shutdown"}
+2026-05-25T23:22:53 | app | INFO | {"timestamp": "2026-05-25T17:52:53.241800", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:54 | app | INFO | {"timestamp": "2026-05-25T17:52:54.053649", "event": "app_shutdown"}
+2026-05-25T23:22:55 | app | INFO | {"timestamp": "2026-05-25T17:52:55.093009", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:55 | app | INFO | {"timestamp": "2026-05-25T17:52:55.706783", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:56 | app | INFO | {"timestamp": "2026-05-25T17:52:56.551101", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:57 | app | INFO | {"timestamp": "2026-05-25T17:52:57.419803", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:57 | app | INFO | {"timestamp": "2026-05-25T17:52:57.968880", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:22:58 | app | INFO | {"timestamp": "2026-05-25T17:52:58.877814", "event": "app_shutdown"}
+2026-05-25T23:22:59 | app | INFO | {"timestamp": "2026-05-25T17:52:59.461706", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:01 | app | INFO | {"timestamp": "2026-05-25T17:53:01.379972", "event": "app_shutdown"}
+2026-05-25T23:23:02 | app | INFO | {"timestamp": "2026-05-25T17:53:02.110000", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:02 | app | INFO | {"timestamp": "2026-05-25T17:53:02.687407", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:03 | app | INFO | {"timestamp": "2026-05-25T17:53:03.352299", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:04 | app | INFO | {"timestamp": "2026-05-25T17:53:04.642926", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:05 | app | INFO | {"timestamp": "2026-05-25T17:53:05.680384", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:06 | app | INFO | {"timestamp": "2026-05-25T17:53:06.253055", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:06 | app | INFO | {"timestamp": "2026-05-25T17:53:06.826688", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:07 | app | INFO | {"timestamp": "2026-05-25T17:53:07.766050", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:13 | app | INFO | {"timestamp": "2026-05-25T17:53:13.733505", "event": "app_shutdown"}
+2026-05-25T23:23:14 | app | INFO | {"timestamp": "2026-05-25T17:53:14.296371", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:14 | app | INFO | {"timestamp": "2026-05-25T17:53:14.831775", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:16 | app | INFO | {"timestamp": "2026-05-25T17:53:16.450901", "event": "app_shutdown"}
+2026-05-25T23:23:17 | app | INFO | {"timestamp": "2026-05-25T17:53:17.023022", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:17 | app | INFO | {"timestamp": "2026-05-25T17:53:17.565977", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:18 | app | INFO | {"timestamp": "2026-05-25T17:53:18.414272", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:19 | app | INFO | {"timestamp": "2026-05-25T17:53:19.097311", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:19 | app | INFO | {"timestamp": "2026-05-25T17:53:19.845357", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:30 | app | INFO | {"timestamp": "2026-05-25T17:53:30.957827", "event": "app_shutdown"}
+2026-05-25T23:23:31 | app | INFO | {"timestamp": "2026-05-25T17:53:31.814055", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:32 | app | INFO | {"timestamp": "2026-05-25T17:53:32.338892", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:33 | app | INFO | {"timestamp": "2026-05-25T17:53:33.248523", "event": "app_shutdown"}
+2026-05-25T23:23:33 | app | INFO | {"timestamp": "2026-05-25T17:53:33.830279", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:23:35 | app | INFO | {"timestamp": "2026-05-25T17:53:35.546839", "event": "app_shutdown"}
+2026-05-25T23:23:36 | app | INFO | {"timestamp": "2026-05-25T17:53:36.107324", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:26 | app | INFO | {"timestamp": "2026-05-25T17:54:26.228684", "event": "app_shutdown"}
+2026-05-25T23:24:27 | app | INFO | {"timestamp": "2026-05-25T17:54:27.418431", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:29 | app | INFO | {"timestamp": "2026-05-25T17:54:29.340798", "event": "app_shutdown"}
+2026-05-25T23:24:29 | app | INFO | {"timestamp": "2026-05-25T17:54:29.884802", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:30 | app | INFO | {"timestamp": "2026-05-25T17:54:30.521179", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:31 | app | INFO | {"timestamp": "2026-05-25T17:54:31.935002", "event": "app_shutdown"}
+2026-05-25T23:24:32 | app | INFO | {"timestamp": "2026-05-25T17:54:32.832682", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:33 | app | INFO | {"timestamp": "2026-05-25T17:54:33.603995", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:34 | app | INFO | {"timestamp": "2026-05-25T17:54:34.615185", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:35 | app | INFO | {"timestamp": "2026-05-25T17:54:35.613683", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:36 | app | INFO | {"timestamp": "2026-05-25T17:54:36.781542", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:37 | app | INFO | {"timestamp": "2026-05-25T17:54:37.824371", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:38 | app | INFO | {"timestamp": "2026-05-25T17:54:38.744526", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:40 | app | INFO | {"timestamp": "2026-05-25T17:54:40.071236", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:40 | app | INFO | {"timestamp": "2026-05-25T17:54:40.375109", "event": "app_shutdown"}
+2026-05-25T23:24:41 | app | INFO | {"timestamp": "2026-05-25T17:54:41.224218", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:41 | app | INFO | {"timestamp": "2026-05-25T17:54:41.733268", "event": "app_shutdown"}
+2026-05-25T23:24:43 | app | INFO | {"timestamp": "2026-05-25T17:54:43.416593", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:46 | app | INFO | {"timestamp": "2026-05-25T17:54:46.247244", "event": "app_shutdown"}
+2026-05-25T23:24:47 | app | INFO | {"timestamp": "2026-05-25T17:54:47.510751", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:48 | app | INFO | {"timestamp": "2026-05-25T17:54:48.725827", "event": "app_shutdown"}
+2026-05-25T23:24:49 | app | INFO | {"timestamp": "2026-05-25T17:54:49.353823", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:49 | app | INFO | {"timestamp": "2026-05-25T17:54:49.556804", "event": "app_shutdown"}
+2026-05-25T23:24:50 | app | INFO | {"timestamp": "2026-05-25T17:54:50.178397", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:50 | app | INFO | {"timestamp": "2026-05-25T17:54:50.482300", "event": "app_shutdown"}
+2026-05-25T23:24:51 | app | INFO | {"timestamp": "2026-05-25T17:54:51.037689", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:24:51 | app | INFO | {"timestamp": "2026-05-25T17:54:51.342095", "event": "app_shutdown"}
+2026-05-25T23:24:51 | app | INFO | {"timestamp": "2026-05-25T17:54:51.954195", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:01 | app | INFO | {"timestamp": "2026-05-25T17:55:01.448002", "event": "app_shutdown"}
+2026-05-25T23:25:02 | app | INFO | {"timestamp": "2026-05-25T17:55:02.152913", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:04 | app | INFO | {"timestamp": "2026-05-25T17:55:04.176754", "event": "app_shutdown"}
+2026-05-25T23:25:04 | app | INFO | {"timestamp": "2026-05-25T17:55:04.723474", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:04 | app | INFO | {"timestamp": "2026-05-25T17:55:04.926358", "event": "app_shutdown"}
+2026-05-25T23:25:05 | app | INFO | {"timestamp": "2026-05-25T17:55:05.834568", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:06 | app | INFO | {"timestamp": "2026-05-25T17:55:06.620003", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:07 | app | INFO | {"timestamp": "2026-05-25T17:55:07.216942", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:16 | app | INFO | {"timestamp": "2026-05-25T17:55:16.917724", "event": "app_shutdown"}
+2026-05-25T23:25:17 | app | INFO | {"timestamp": "2026-05-25T17:55:17.470594", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:18 | app | INFO | {"timestamp": "2026-05-25T17:55:18.281894", "event": "app_shutdown"}
+2026-05-25T23:25:18 | app | INFO | {"timestamp": "2026-05-25T17:55:18.901475", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:19 | app | INFO | {"timestamp": "2026-05-25T17:55:19.812263", "event": "app_shutdown"}
+2026-05-25T23:25:20 | app | INFO | {"timestamp": "2026-05-25T17:55:20.374818", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:20 | app | INFO | {"timestamp": "2026-05-25T17:55:20.985437", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:34 | app | INFO | {"timestamp": "2026-05-25T17:55:34.125069", "event": "app_shutdown"}
+2026-05-25T23:25:34 | app | INFO | {"timestamp": "2026-05-25T17:55:34.865136", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:37 | app | INFO | {"timestamp": "2026-05-25T17:55:37.601745", "event": "app_shutdown"}
+2026-05-25T23:25:38 | app | INFO | {"timestamp": "2026-05-25T17:55:38.267462", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:39 | app | INFO | {"timestamp": "2026-05-25T17:55:39.586210", "event": "app_shutdown"}
+2026-05-25T23:25:40 | app | INFO | {"timestamp": "2026-05-25T17:55:40.767819", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:41 | app | INFO | {"timestamp": "2026-05-25T17:55:41.544389", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:49 | app | INFO | {"timestamp": "2026-05-25T17:55:49.731419", "event": "app_shutdown"}
+2026-05-25T23:25:50 | app | INFO | {"timestamp": "2026-05-25T17:55:50.475215", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:51 | app | INFO | {"timestamp": "2026-05-25T17:55:51.048223", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:51 | app | INFO | {"timestamp": "2026-05-25T17:55:51.352061", "event": "app_shutdown"}
+2026-05-25T23:25:51 | app | INFO | {"timestamp": "2026-05-25T17:55:51.894721", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:52 | app | INFO | {"timestamp": "2026-05-25T17:55:52.502094", "event": "app_shutdown"}
+2026-05-25T23:25:53 | app | INFO | {"timestamp": "2026-05-25T17:55:53.114810", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:53 | app | INFO | {"timestamp": "2026-05-25T17:55:53.418860", "event": "app_shutdown"}
+2026-05-25T23:25:54 | app | INFO | {"timestamp": "2026-05-25T17:55:54.299705", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:25:55 | app | INFO | {"timestamp": "2026-05-25T17:55:55.268607", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:05 | app | INFO | {"timestamp": "2026-05-25T17:56:05.779830", "event": "app_shutdown"}
+2026-05-25T23:26:06 | app | INFO | {"timestamp": "2026-05-25T17:56:06.541853", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:07 | app | INFO | {"timestamp": "2026-05-25T17:56:07.251077", "event": "app_shutdown"}
+2026-05-25T23:26:07 | app | INFO | {"timestamp": "2026-05-25T17:56:07.816287", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:09 | app | INFO | {"timestamp": "2026-05-25T17:56:09.437805", "event": "app_shutdown"}
+2026-05-25T23:26:10 | app | INFO | {"timestamp": "2026-05-25T17:56:10.046457", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:10 | app | INFO | {"timestamp": "2026-05-25T17:56:10.982858", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:12 | app | INFO | {"timestamp": "2026-05-25T17:56:12.027549", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:23 | app | INFO | {"timestamp": "2026-05-25T17:56:23.236122", "event": "app_shutdown"}
+2026-05-25T23:26:23 | app | INFO | {"timestamp": "2026-05-25T17:56:23.919340", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:25 | app | INFO | {"timestamp": "2026-05-25T17:56:25.738470", "event": "app_shutdown"}
+2026-05-25T23:26:26 | app | INFO | {"timestamp": "2026-05-25T17:56:26.409681", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:27 | app | INFO | {"timestamp": "2026-05-25T17:56:27.016710", "event": "app_shutdown"}
+2026-05-25T23:26:27 | app | INFO | {"timestamp": "2026-05-25T17:56:27.773786", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:28 | app | INFO | {"timestamp": "2026-05-25T17:56:28.615926", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:30 | app | INFO | {"timestamp": "2026-05-25T17:56:30.055549", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:30 | app | INFO | {"timestamp": "2026-05-25T17:56:30.864945", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:39 | app | INFO | {"timestamp": "2026-05-25T17:56:39.756963", "event": "app_shutdown"}
+2026-05-25T23:26:40 | app | INFO | {"timestamp": "2026-05-25T17:56:40.564930", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:41 | app | INFO | {"timestamp": "2026-05-25T17:56:41.678972", "event": "app_shutdown"}
+2026-05-25T23:26:42 | app | INFO | {"timestamp": "2026-05-25T17:56:42.233250", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:42 | app | INFO | {"timestamp": "2026-05-25T17:56:42.840484", "event": "app_shutdown"}
+2026-05-25T23:26:43 | app | INFO | {"timestamp": "2026-05-25T17:56:43.604775", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:44 | app | INFO | {"timestamp": "2026-05-25T17:56:44.618121", "event": "app_shutdown"}
+2026-05-25T23:26:45 | app | INFO | {"timestamp": "2026-05-25T17:56:45.862980", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:46 | app | INFO | {"timestamp": "2026-05-25T17:56:46.683919", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:55 | app | INFO | {"timestamp": "2026-05-25T17:56:55.576770", "event": "app_shutdown"}
+2026-05-25T23:26:56 | app | INFO | {"timestamp": "2026-05-25T17:56:56.158823", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:56 | app | INFO | {"timestamp": "2026-05-25T17:56:56.664806", "event": "app_shutdown"}
+2026-05-25T23:26:57 | app | INFO | {"timestamp": "2026-05-25T17:56:57.250908", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:58 | app | INFO | {"timestamp": "2026-05-25T17:56:58.059566", "event": "app_shutdown"}
+2026-05-25T23:26:58 | app | INFO | {"timestamp": "2026-05-25T17:56:58.626647", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:26:58 | app | INFO | {"timestamp": "2026-05-25T17:56:58.829420", "event": "app_shutdown"}
+2026-05-25T23:26:59 | app | INFO | {"timestamp": "2026-05-25T17:56:59.465011", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:12 | app | INFO | {"timestamp": "2026-05-25T17:57:12.207512", "event": "app_shutdown"}
+2026-05-25T23:27:12 | app | INFO | {"timestamp": "2026-05-25T17:57:12.917083", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:15 | app | INFO | {"timestamp": "2026-05-25T17:57:15.343621", "event": "app_shutdown"}
+2026-05-25T23:27:15 | app | INFO | {"timestamp": "2026-05-25T17:57:15.967357", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:17 | app | INFO | {"timestamp": "2026-05-25T17:57:17.078434", "event": "app_shutdown"}
+2026-05-25T23:27:17 | app | INFO | {"timestamp": "2026-05-25T17:57:17.727185", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:18 | app | INFO | {"timestamp": "2026-05-25T17:57:18.285741", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:30 | app | INFO | {"timestamp": "2026-05-25T17:57:30.407916", "event": "app_shutdown"}
+2026-05-25T23:27:31 | app | INFO | {"timestamp": "2026-05-25T17:57:31.081315", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:31 | app | INFO | {"timestamp": "2026-05-25T17:57:31.785912", "event": "app_shutdown"}
+2026-05-25T23:27:32 | app | INFO | {"timestamp": "2026-05-25T17:57:32.327499", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:33 | app | INFO | {"timestamp": "2026-05-25T17:57:33.543301", "event": "app_shutdown"}
+2026-05-25T23:27:34 | app | INFO | {"timestamp": "2026-05-25T17:57:34.130866", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:47 | app | INFO | {"timestamp": "2026-05-25T17:57:47.771948", "event": "app_shutdown"}
+2026-05-25T23:27:48 | app | INFO | {"timestamp": "2026-05-25T17:57:48.469699", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:50 | app | INFO | {"timestamp": "2026-05-25T17:57:50.188073", "event": "app_shutdown"}
+2026-05-25T23:27:50 | app | INFO | {"timestamp": "2026-05-25T17:57:50.772298", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:27:51 | app | INFO | {"timestamp": "2026-05-25T17:57:51.077262", "event": "app_shutdown"}
+2026-05-25T23:27:51 | app | INFO | {"timestamp": "2026-05-25T17:57:51.696058", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:01 | app | INFO | {"timestamp": "2026-05-25T17:58:01.907007", "event": "app_shutdown"}
+2026-05-25T23:28:02 | app | INFO | {"timestamp": "2026-05-25T17:58:02.622202", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:03 | app | INFO | {"timestamp": "2026-05-25T17:58:03.185192", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:04 | app | INFO | {"timestamp": "2026-05-25T17:58:04.398652", "event": "app_shutdown"}
+2026-05-25T23:28:05 | app | INFO | {"timestamp": "2026-05-25T17:58:05.024886", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:05 | app | INFO | {"timestamp": "2026-05-25T17:58:05.430346", "event": "app_shutdown"}
+2026-05-25T23:28:06 | app | INFO | {"timestamp": "2026-05-25T17:58:06.560574", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:07 | app | INFO | {"timestamp": "2026-05-25T17:58:07.153817", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:07 | app | INFO | {"timestamp": "2026-05-25T17:58:07.740507", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:08 | app | INFO | {"timestamp": "2026-05-25T17:58:08.044300", "event": "app_shutdown"}
+2026-05-25T23:28:08 | app | INFO | {"timestamp": "2026-05-25T17:58:08.607846", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:17 | app | INFO | {"timestamp": "2026-05-25T17:58:17.098798", "event": "app_shutdown"}
+2026-05-25T23:28:17 | app | INFO | {"timestamp": "2026-05-25T17:58:17.888083", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:18 | app | INFO | {"timestamp": "2026-05-25T17:58:18.819131", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:19 | app | INFO | {"timestamp": "2026-05-25T17:58:19.752085", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:20 | app | INFO | {"timestamp": "2026-05-25T17:58:20.354739", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:20 | app | INFO | {"timestamp": "2026-05-25T17:58:20.909325", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:21 | app | INFO | {"timestamp": "2026-05-25T17:58:21.567955", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:21 | app | INFO | {"timestamp": "2026-05-25T17:58:21.772582", "event": "app_shutdown"}
+2026-05-25T23:28:22 | app | INFO | {"timestamp": "2026-05-25T17:58:22.445384", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:34 | app | INFO | {"timestamp": "2026-05-25T17:58:34.470454", "event": "app_shutdown"}
+2026-05-25T23:28:35 | app | INFO | {"timestamp": "2026-05-25T17:58:35.222940", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:36 | app | INFO | {"timestamp": "2026-05-25T17:58:36.131545", "event": "app_shutdown"}
+2026-05-25T23:28:36 | app | INFO | {"timestamp": "2026-05-25T17:58:36.676756", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:37 | app | INFO | {"timestamp": "2026-05-25T17:58:37.992291", "event": "app_shutdown"}
+2026-05-25T23:28:38 | app | INFO | {"timestamp": "2026-05-25T17:58:38.578806", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:39 | app | INFO | {"timestamp": "2026-05-25T17:58:39.471253", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:51 | app | INFO | {"timestamp": "2026-05-25T17:58:51.095743", "event": "app_shutdown"}
+2026-05-25T23:28:51 | app | INFO | {"timestamp": "2026-05-25T17:58:51.745692", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:53 | app | INFO | {"timestamp": "2026-05-25T17:58:53.363897", "event": "app_shutdown"}
+2026-05-25T23:28:54 | app | INFO | {"timestamp": "2026-05-25T17:58:54.092232", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:28:54 | app | INFO | {"timestamp": "2026-05-25T17:58:54.395966", "event": "app_shutdown"}
+2026-05-25T23:28:55 | app | INFO | {"timestamp": "2026-05-25T17:58:55.182648", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:05 | app | INFO | {"timestamp": "2026-05-25T17:59:05.792721", "event": "app_shutdown"}
+2026-05-25T23:29:06 | app | INFO | {"timestamp": "2026-05-25T17:59:06.486759", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:08 | app | INFO | {"timestamp": "2026-05-25T17:59:08.204096", "event": "app_shutdown"}
+2026-05-25T23:29:08 | app | INFO | {"timestamp": "2026-05-25T17:59:08.917331", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:09 | app | INFO | {"timestamp": "2026-05-25T17:59:09.222098", "event": "app_shutdown"}
+2026-05-25T23:29:09 | app | INFO | {"timestamp": "2026-05-25T17:59:09.764284", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:10 | app | INFO | {"timestamp": "2026-05-25T17:59:10.977794", "event": "app_shutdown"}
+2026-05-25T23:29:11 | app | INFO | {"timestamp": "2026-05-25T17:59:11.906866", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:13 | app | INFO | {"timestamp": "2026-05-25T17:59:13.016681", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:13 | app | INFO | {"timestamp": "2026-05-25T17:59:13.882342", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:20 | app | INFO | {"timestamp": "2026-05-25T17:59:20.953128", "event": "app_shutdown"}
+2026-05-25T23:29:21 | app | INFO | {"timestamp": "2026-05-25T17:59:21.546867", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:22 | app | INFO | {"timestamp": "2026-05-25T17:59:22.559254", "event": "app_shutdown"}
+2026-05-25T23:29:23 | app | INFO | {"timestamp": "2026-05-25T17:59:23.186418", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:23 | app | INFO | {"timestamp": "2026-05-25T17:59:23.489872", "event": "app_shutdown"}
+2026-05-25T23:29:24 | app | INFO | {"timestamp": "2026-05-25T17:59:24.602648", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:25 | app | INFO | {"timestamp": "2026-05-25T17:59:25.449266", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:27 | app | INFO | {"timestamp": "2026-05-25T17:59:27.667126", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:29 | app | INFO | {"timestamp": "2026-05-25T17:59:29.138789", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:30 | app | INFO | {"timestamp": "2026-05-25T17:59:30.113220", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:41 | app | INFO | {"timestamp": "2026-05-25T17:59:41.062673", "event": "app_shutdown"}
+2026-05-25T23:29:41 | app | INFO | {"timestamp": "2026-05-25T17:59:41.979065", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:43 | app | INFO | {"timestamp": "2026-05-25T17:59:43.618318", "event": "app_shutdown"}
+2026-05-25T23:29:44 | app | INFO | {"timestamp": "2026-05-25T17:59:44.584048", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:44 | app | INFO | {"timestamp": "2026-05-25T17:59:44.888551", "event": "app_shutdown"}
+2026-05-25T23:29:45 | app | INFO | {"timestamp": "2026-05-25T17:59:45.452756", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:46 | app | INFO | {"timestamp": "2026-05-25T17:59:46.670776", "event": "app_shutdown"}
+2026-05-25T23:29:47 | app | INFO | {"timestamp": "2026-05-25T17:59:47.875024", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:49 | app | INFO | {"timestamp": "2026-05-25T17:59:49.625076", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:29:50 | app | INFO | {"timestamp": "2026-05-25T17:59:50.355067", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:30:00 | app | INFO | {"timestamp": "2026-05-25T18:00:00.150577", "event": "app_shutdown"}
+2026-05-25T23:30:00 | app | INFO | {"timestamp": "2026-05-25T18:00:00.720711", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:30:01 | app | INFO | {"timestamp": "2026-05-25T18:00:01.629385", "event": "app_shutdown"}
+2026-05-25T23:30:02 | app | INFO | {"timestamp": "2026-05-25T18:00:02.175726", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:30:03 | app | INFO | {"timestamp": "2026-05-25T18:00:03.596148", "event": "app_shutdown"}
+2026-05-25T23:30:04 | app | INFO | {"timestamp": "2026-05-25T18:00:04.169222", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:30:53 | app | INFO | {"timestamp": "2026-05-25T18:00:53.921599", "event": "app_shutdown"}
+2026-05-25T23:30:55 | app | INFO | {"timestamp": "2026-05-25T18:00:55.546496", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:30:57 | app | INFO | {"timestamp": "2026-05-25T18:00:57.262438", "event": "app_shutdown"}
+2026-05-25T23:30:58 | app | INFO | {"timestamp": "2026-05-25T18:00:58.078957", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:30:59 | app | INFO | {"timestamp": "2026-05-25T18:00:59.297191", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:00 | app | INFO | {"timestamp": "2026-05-25T18:01:00.915951", "event": "app_shutdown"}
+2026-05-25T23:31:01 | app | INFO | {"timestamp": "2026-05-25T18:01:01.747528", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:02 | app | INFO | {"timestamp": "2026-05-25T18:01:02.889719", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:03 | app | INFO | {"timestamp": "2026-05-25T18:01:03.509576", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:03 | app | INFO | {"timestamp": "2026-05-25T18:01:03.814678", "event": "app_shutdown"}
+2026-05-25T23:31:04 | app | INFO | {"timestamp": "2026-05-25T18:01:04.692204", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:05 | app | INFO | {"timestamp": "2026-05-25T18:01:05.255649", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:08 | app | INFO | {"timestamp": "2026-05-25T18:01:08.688910", "event": "app_shutdown"}
+2026-05-25T23:31:09 | app | INFO | {"timestamp": "2026-05-25T18:01:09.378124", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:09 | app | INFO | {"timestamp": "2026-05-25T18:01:09.681742", "event": "app_shutdown"}
+2026-05-25T23:31:10 | app | INFO | {"timestamp": "2026-05-25T18:01:10.248258", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:10 | app | INFO | {"timestamp": "2026-05-25T18:01:10.923124", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:11 | app | INFO | {"timestamp": "2026-05-25T18:01:11.603144", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:12 | app | INFO | {"timestamp": "2026-05-25T18:01:12.759558", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:13 | app | INFO | {"timestamp": "2026-05-25T18:01:13.895501", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:14 | app | INFO | {"timestamp": "2026-05-25T18:01:14.542174", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:15 | app | INFO | {"timestamp": "2026-05-25T18:01:15.100293", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:15 | app | INFO | {"timestamp": "2026-05-25T18:01:15.688899", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:22 | app | INFO | {"timestamp": "2026-05-25T18:01:22.858352", "event": "app_shutdown"}
+2026-05-25T23:31:23 | app | INFO | {"timestamp": "2026-05-25T18:01:23.489342", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:25 | app | INFO | {"timestamp": "2026-05-25T18:01:25.615863", "event": "app_shutdown"}
+2026-05-25T23:31:26 | app | INFO | {"timestamp": "2026-05-25T18:01:26.644238", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:27 | app | INFO | {"timestamp": "2026-05-25T18:01:27.556455", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:29 | app | INFO | {"timestamp": "2026-05-25T18:01:29.008732", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:38 | app | INFO | {"timestamp": "2026-05-25T18:01:38.632810", "event": "app_shutdown"}
+2026-05-25T23:31:39 | app | INFO | {"timestamp": "2026-05-25T18:01:39.283825", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:39 | app | INFO | {"timestamp": "2026-05-25T18:01:39.804377", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:40 | app | INFO | {"timestamp": "2026-05-25T18:01:40.410698", "event": "app_shutdown"}
+2026-05-25T23:31:41 | app | INFO | {"timestamp": "2026-05-25T18:01:41.351124", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:42 | app | INFO | {"timestamp": "2026-05-25T18:01:42.023996", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:31:43 | app | INFO | {"timestamp": "2026-05-25T18:01:43.035904", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:39 | app | INFO | {"timestamp": "2026-05-25T18:02:39.758210", "event": "app_shutdown"}
+2026-05-25T23:32:40 | app | INFO | {"timestamp": "2026-05-25T18:02:40.824077", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:41 | app | INFO | {"timestamp": "2026-05-25T18:02:41.418633", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:44 | app | INFO | {"timestamp": "2026-05-25T18:02:44.682561", "event": "app_shutdown"}
+2026-05-25T23:32:46 | app | INFO | {"timestamp": "2026-05-25T18:02:46.133555", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:46 | app | INFO | {"timestamp": "2026-05-25T18:02:46.335402", "event": "app_shutdown"}
+2026-05-25T23:32:47 | app | INFO | {"timestamp": "2026-05-25T18:02:47.327006", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:49 | app | INFO | {"timestamp": "2026-05-25T18:02:49.046417", "event": "app_shutdown"}
+2026-05-25T23:32:49 | app | INFO | {"timestamp": "2026-05-25T18:02:49.644817", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:50 | app | INFO | {"timestamp": "2026-05-25T18:02:50.738823", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:52 | app | INFO | {"timestamp": "2026-05-25T18:02:52.053003", "event": "app_shutdown"}
+2026-05-25T23:32:52 | app | INFO | {"timestamp": "2026-05-25T18:02:52.624333", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:55 | app | INFO | {"timestamp": "2026-05-25T18:02:55.253874", "event": "app_shutdown"}
+2026-05-25T23:32:55 | app | INFO | {"timestamp": "2026-05-25T18:02:55.876854", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:56 | app | INFO | {"timestamp": "2026-05-25T18:02:56.991512", "event": "app_shutdown"}
+2026-05-25T23:32:57 | app | INFO | {"timestamp": "2026-05-25T18:02:57.887407", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:32:59 | app | INFO | {"timestamp": "2026-05-25T18:02:59.157635", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:00 | app | INFO | {"timestamp": "2026-05-25T18:03:00.069209", "event": "app_shutdown"}
+2026-05-25T23:33:00 | app | INFO | {"timestamp": "2026-05-25T18:03:00.756673", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:00 | app | INFO | {"timestamp": "2026-05-25T18:03:00.959080", "event": "app_shutdown"}
+2026-05-25T23:33:02 | app | INFO | {"timestamp": "2026-05-25T18:03:02.534879", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:03 | app | INFO | {"timestamp": "2026-05-25T18:03:03.590519", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:04 | app | INFO | {"timestamp": "2026-05-25T18:03:04.924460", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:06 | app | INFO | {"timestamp": "2026-05-25T18:03:06.271916", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:07 | app | INFO | {"timestamp": "2026-05-25T18:03:07.838222", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:09 | app | INFO | {"timestamp": "2026-05-25T18:03:09.416339", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:10 | app | INFO | {"timestamp": "2026-05-25T18:03:10.125622", "event": "app_shutdown"}
+2026-05-25T23:33:11 | app | INFO | {"timestamp": "2026-05-25T18:03:11.376857", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:12 | app | INFO | {"timestamp": "2026-05-25T18:03:12.374081", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:15 | app | INFO | {"timestamp": "2026-05-25T18:03:15.937049", "event": "app_shutdown"}
+2026-05-25T23:33:16 | app | INFO | {"timestamp": "2026-05-25T18:03:16.972142", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:17 | app | INFO | {"timestamp": "2026-05-25T18:03:17.579461", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:18 | app | INFO | {"timestamp": "2026-05-25T18:03:18.738210", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:19 | app | INFO | {"timestamp": "2026-05-25T18:03:19.638958", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:20 | app | INFO | {"timestamp": "2026-05-25T18:03:20.580381", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:21 | app | INFO | {"timestamp": "2026-05-25T18:03:21.554572", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:30 | app | INFO | {"timestamp": "2026-05-25T18:03:30.248029", "event": "app_shutdown"}
+2026-05-25T23:33:30 | app | INFO | {"timestamp": "2026-05-25T18:03:30.983709", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:32 | app | INFO | {"timestamp": "2026-05-25T18:03:32.551553", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:32 | app | INFO | {"timestamp": "2026-05-25T18:03:32.958778", "event": "app_shutdown"}
+2026-05-25T23:33:33 | app | INFO | {"timestamp": "2026-05-25T18:03:33.634152", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:33:33 | app | INFO | {"timestamp": "2026-05-25T18:03:33.937980", "event": "app_shutdown"}
+2026-05-25T23:33:34 | app | INFO | {"timestamp": "2026-05-25T18:03:34.580145", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:42 | app | INFO | {"timestamp": "2026-05-25T18:04:42.018967", "event": "app_shutdown"}
+2026-05-25T23:34:45 | app | INFO | {"timestamp": "2026-05-25T18:04:45.767219", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:49 | app | INFO | {"timestamp": "2026-05-25T18:04:49.450928", "event": "app_shutdown"}
+2026-05-25T23:34:50 | app | INFO | {"timestamp": "2026-05-25T18:04:50.174653", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:50 | app | INFO | {"timestamp": "2026-05-25T18:04:50.477198", "event": "app_shutdown"}
+2026-05-25T23:34:51 | app | INFO | {"timestamp": "2026-05-25T18:04:51.013475", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:51 | app | INFO | {"timestamp": "2026-05-25T18:04:51.824079", "event": "app_shutdown"}
+2026-05-25T23:34:52 | app | INFO | {"timestamp": "2026-05-25T18:04:52.497428", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:53 | app | INFO | {"timestamp": "2026-05-25T18:04:53.105028", "event": "app_shutdown"}
+2026-05-25T23:34:54 | app | INFO | {"timestamp": "2026-05-25T18:04:54.311808", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:54 | app | INFO | {"timestamp": "2026-05-25T18:04:54.947576", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:55 | app | INFO | {"timestamp": "2026-05-25T18:04:55.756136", "event": "app_shutdown"}
+2026-05-25T23:34:56 | app | INFO | {"timestamp": "2026-05-25T18:04:56.427295", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:57 | app | INFO | {"timestamp": "2026-05-25T18:04:57.237309", "event": "app_shutdown"}
+2026-05-25T23:34:57 | app | INFO | {"timestamp": "2026-05-25T18:04:57.917232", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:58 | app | INFO | {"timestamp": "2026-05-25T18:04:58.119984", "event": "app_shutdown"}
+2026-05-25T23:34:58 | app | INFO | {"timestamp": "2026-05-25T18:04:58.762817", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-25T23:34:59 | app | INFO | {"timestamp": "2026-05-25T18:04:59.567488", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-26T00:02:32 | app | INFO | {"timestamp": "2026-05-25T18:32:32.449392", "event": "app_shutdown"}
+2026-05-26T00:03:10 | app | INFO | {"timestamp": "2026-05-25T18:33:10.948047", "event": "app_startup", "env": "development", "debug": true, "version": "1.3.0"}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.554465", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.556619", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 14.9}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.565701", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 6.85}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.567811", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 0.91}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.576830", "event": "http_request", "method": "GET", "path": "/logs/", "status_code": 200, "duration_ms": 8.06}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.580115", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 1.93}
+2026-05-26T00:04:32 | app | INFO | {"timestamp": "2026-05-25T18:34:32.583919", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 0.99}
+2026-05-26T00:05:18 | app | CRITICAL | {"timestamp": "2026-05-25T18:35:18.429632", "event": "simulated_crash_triggered"}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.502745", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.504236", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 10.16}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.510168", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 3.56}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.512668", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.06}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.524286", "event": "http_request", "method": "GET", "path": "/logs/", "status_code": 200, "duration_ms": 10.35}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.527455", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 1.6}
+2026-05-26T00:05:20 | app | INFO | {"timestamp": "2026-05-25T18:35:20.531758", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.1}
+2026-05-26T00:06:19 | app | INFO | {"timestamp": "2026-05-25T18:36:19.911455", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:19 | app | INFO | {"timestamp": "2026-05-25T18:36:19.915387", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 16.49}
+2026-05-26T00:06:19 | app | INFO | {"timestamp": "2026-05-25T18:36:19.920614", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 3.05}
+2026-05-26T00:06:19 | app | INFO | {"timestamp": "2026-05-25T18:36:19.923600", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.2}
+2026-05-26T00:06:19 | app | INFO | {"timestamp": "2026-05-25T18:36:19.929729", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 4.66}
+2026-05-26T00:06:19 | app | INFO | {"timestamp": "2026-05-25T18:36:19.937659", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 6.67}
+2026-05-26T00:06:35 | app | INFO | {"timestamp": "2026-05-25T18:36:35.321251", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:35 | app | INFO | {"timestamp": "2026-05-25T18:36:35.325205", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 14.18}
+2026-05-26T00:06:35 | app | INFO | {"timestamp": "2026-05-25T18:36:35.337158", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 6.04}
+2026-05-26T00:06:35 | app | INFO | {"timestamp": "2026-05-25T18:36:35.341382", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.15}
+2026-05-26T00:06:35 | app | INFO | {"timestamp": "2026-05-25T18:36:35.348818", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 6.13}
+2026-05-26T00:06:35 | app | INFO | {"timestamp": "2026-05-25T18:36:35.352317", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 1.97}
+2026-05-26T00:06:45 | app | INFO | {"timestamp": "2026-05-25T18:36:45.464470", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:45 | app | INFO | {"timestamp": "2026-05-25T18:36:45.467999", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 12.01}
+2026-05-26T00:06:45 | app | INFO | {"timestamp": "2026-05-25T18:36:45.473408", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 3.48}
+2026-05-26T00:06:45 | app | INFO | {"timestamp": "2026-05-25T18:36:45.487585", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 3.56}
+2026-05-26T00:06:45 | app | INFO | {"timestamp": "2026-05-25T18:36:45.499017", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 3.39}
+2026-05-26T00:06:45 | app | INFO | {"timestamp": "2026-05-25T18:36:45.506334", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 3.51}
+2026-05-26T00:06:47 | app | INFO | {"timestamp": "2026-05-25T18:36:47.528236", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:47 | app | INFO | {"timestamp": "2026-05-25T18:36:47.530038", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 9.45}
+2026-05-26T00:06:47 | app | INFO | {"timestamp": "2026-05-25T18:36:47.537049", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 4.06}
+2026-05-26T00:06:47 | app | INFO | {"timestamp": "2026-05-25T18:36:47.540053", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.24}
+2026-05-26T00:06:47 | app | INFO | {"timestamp": "2026-05-25T18:36:47.543470", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 2.0}
+2026-05-26T00:06:47 | app | INFO | {"timestamp": "2026-05-25T18:36:47.550332", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 4.5}
+2026-05-26T00:06:48 | app | INFO | {"timestamp": "2026-05-25T18:36:48.629565", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:48 | app | INFO | {"timestamp": "2026-05-25T18:36:48.630437", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 2.54}
+2026-05-26T00:06:48 | app | INFO | {"timestamp": "2026-05-25T18:36:48.634508", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 2.3}
+2026-05-26T00:06:48 | app | INFO | {"timestamp": "2026-05-25T18:36:48.637639", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.38}
+2026-05-26T00:06:48 | app | INFO | {"timestamp": "2026-05-25T18:36:48.641154", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 1.96}
+2026-05-26T00:06:48 | app | INFO | {"timestamp": "2026-05-25T18:36:48.644343", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 1.63}
+2026-05-26T00:06:56 | app | INFO | {"timestamp": "2026-05-25T18:36:56.705396", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:56 | app | INFO | {"timestamp": "2026-05-25T18:36:56.706647", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 6.59}
+2026-05-26T00:06:56 | app | INFO | {"timestamp": "2026-05-25T18:36:56.710791", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 2.51}
+2026-05-26T00:06:56 | app | INFO | {"timestamp": "2026-05-25T18:36:56.715421", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 3.3}
+2026-05-26T00:06:56 | app | INFO | {"timestamp": "2026-05-25T18:36:56.721208", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 2.3}
+2026-05-26T00:06:56 | app | INFO | {"timestamp": "2026-05-25T18:36:56.725393", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 1.55}
+2026-05-26T00:06:59 | app | INFO | {"timestamp": "2026-05-25T18:36:59.521617", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:06:59 | app | INFO | {"timestamp": "2026-05-25T18:36:59.523239", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 16.72}
+2026-05-26T00:06:59 | app | INFO | {"timestamp": "2026-05-25T18:36:59.537959", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 12.83}
+2026-05-26T00:06:59 | app | INFO | {"timestamp": "2026-05-25T18:36:59.544960", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 2.68}
+2026-05-26T00:06:59 | app | INFO | {"timestamp": "2026-05-25T18:36:59.550430", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 1.91}
+2026-05-26T00:06:59 | app | INFO | {"timestamp": "2026-05-25T18:36:59.555526", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 2.92}
+2026-05-26T00:07:01 | app | INFO | {"timestamp": "2026-05-25T18:37:01.310006", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:07:01 | app | INFO | {"timestamp": "2026-05-25T18:37:01.313163", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 12.19}
+2026-05-26T00:07:01 | app | INFO | {"timestamp": "2026-05-25T18:37:01.320830", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 3.86}
+2026-05-26T00:07:01 | app | INFO | {"timestamp": "2026-05-25T18:37:01.344668", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 14.92}
+2026-05-26T00:07:01 | app | INFO | {"timestamp": "2026-05-25T18:37:01.352824", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 2.38}
+2026-05-26T00:07:01 | app | INFO | {"timestamp": "2026-05-25T18:37:01.362699", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 6.78}
+2026-05-26T00:10:36 | app | INFO | {"timestamp": "2026-05-25T18:40:36.362948", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:10:36 | app | INFO | {"timestamp": "2026-05-25T18:40:36.373573", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 81.09}
+2026-05-26T00:10:36 | app | INFO | {"timestamp": "2026-05-25T18:40:36.399797", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 19.05}
+2026-05-26T00:10:36 | app | INFO | {"timestamp": "2026-05-25T18:40:36.403055", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.07}
+2026-05-26T00:10:36 | app | INFO | {"timestamp": "2026-05-25T18:40:36.414680", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 9.87}
+2026-05-26T00:10:36 | app | INFO | {"timestamp": "2026-05-25T18:40:36.421290", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 3.95}
+2026-05-26T00:10:45 | app | INFO | {"timestamp": "2026-05-25T18:40:45.637651", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:10:45 | app | INFO | {"timestamp": "2026-05-25T18:40:45.639594", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 14.29}
+2026-05-26T00:10:45 | app | INFO | {"timestamp": "2026-05-25T18:40:45.649228", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 7.03}
+2026-05-26T00:10:45 | app | INFO | {"timestamp": "2026-05-25T18:40:45.654665", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 2.34}
+2026-05-26T00:10:45 | app | INFO | {"timestamp": "2026-05-25T18:40:45.661973", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 3.89}
+2026-05-26T00:10:45 | app | INFO | {"timestamp": "2026-05-25T18:40:45.664965", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 1.69}
+2026-05-26T00:11:26 | app | CRITICAL | {"timestamp": "2026-05-25T18:41:26.683474", "event": "simulated_crash_triggered"}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.798554", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.799934", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 19.94}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.809151", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 7.12}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.812059", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.28}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.830097", "event": "http_request", "method": "GET", "path": "/logs/", "status_code": 200, "duration_ms": 16.41}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.834043", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 2.4}
+2026-05-26T00:11:28 | app | INFO | {"timestamp": "2026-05-25T18:41:28.838566", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.18}
+2026-05-26T00:13:17 | app | INFO | {"timestamp": "2026-05-25T18:43:17.443875", "event": "health_check_ok", "overall": "degraded"}
+2026-05-26T00:13:17 | app | INFO | {"timestamp": "2026-05-25T18:43:17.449065", "event": "http_request", "method": "GET", "path": "/health/", "status_code": 200, "duration_ms": 26.71}
+2026-05-26T00:13:17 | app | INFO | {"timestamp": "2026-05-25T18:43:17.473524", "event": "http_request", "method": "GET", "path": "/metrics/", "status_code": 200, "duration_ms": 17.26}
+2026-05-26T00:13:17 | app | INFO | {"timestamp": "2026-05-25T18:43:17.477353", "event": "http_request", "method": "GET", "path": "/health/services", "status_code": 200, "duration_ms": 1.34}
+2026-05-26T00:13:17 | app | INFO | {"timestamp": "2026-05-25T18:43:17.485042", "event": "http_request", "method": "GET", "path": "/deployments/", "status_code": 200, "duration_ms": 6.45}
+2026-05-26T00:13:17 | app | INFO | {"timestamp": "2026-05-25T18:43:17.488489", "event": "http_request", "method": "GET", "path": "/incidents/", "status_code": 200, "duration_ms": 2.34}
+2026-05-26T00:13:49 | app | INFO | {"timestamp": "2026-05-25T18:43:49.137278", "event": "app_shutdown"}

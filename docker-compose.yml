@@ -1,9 +1,60 @@
 version: "3.9"
 
 services:
+  # ── Agentic ITSM — AI orchestration layer ─────────────────────────────────
+  agentic-itsm:
+    build:
+      context: ./agentic-itsm
+      dockerfile: Dockerfile
+    environment:
+      OPS_DASHBOARD_URL: http://backend:8000
+      OPS_API_KEY: dev-secret-key-123
+      POLL_INTERVAL_SECONDS: "30"
+      LATENCY_THRESHOLD_MS: "500"
+      ERROR_RATE_THRESHOLD_PCT: "5.0"
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      OPENAI_MODEL: gpt-4o-mini
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+      GITHUB_REPO_OWNER: ${GITHUB_REPO_OWNER}
+      GITHUB_REPO_NAME: ${GITHUB_REPO_NAME}
+      GITHUB_PROJECT_NUMBER: ${GITHUB_PROJECT_NUMBER:-1}
+      GMAIL_SENDER: ${GMAIL_SENDER}
+      GMAIL_APP_PASSWORD: ${GMAIL_APP_PASSWORD}
+      ESCALATION_EMAIL: ${ESCALATION_EMAIL}
+      STATE_DB_PATH: /app/data/agentic_itsm.db
+      LOG_DIR: /app/logs
+      LOG_LEVEL: INFO
+    volumes:
+      - ./agentic-itsm/logs:/app/logs
+      - ./agentic-itsm/data:/app/data
+    depends_on:
+      - backend
+    restart: unless-stopped
+    command: python app.py --loop
+
+  # ── Agentic ITSM AI Operations Dashboard ──────────────────────────────────
+  agentic-dashboard:
+    build:
+      context: ./agentic-itsm
+      dockerfile: Dockerfile
+    ports:
+      - "8502:8502"
+    environment:
+      OPS_DASHBOARD_URL: http://backend:8000
+      OPS_API_KEY: dev-secret-key-123
+      STATE_DB_PATH: /app/data/agentic_itsm.db
+      LOG_DIR: /app/logs
+    volumes:
+      - ./agentic-itsm/logs:/app/logs
+      - ./agentic-itsm/data:/app/data
+    depends_on:
+      - backend
+    restart: unless-stopped
+    command: streamlit run dashboard/app.py --server.port 8502 --server.address 0.0.0.0
+
   backend:
     build:
-      context: .
+      context: ./internal-ops-dashboard
       dockerfile: Dockerfile.backend
     ports:
       - "8000:8000"
@@ -19,8 +70,8 @@ services:
       LATENCY_MS: "2000"
       FAILURE_RATE: "0.3"
     volumes:
-      - ./logs:/app/logs
-      - ./data:/app/data
+      - ./internal-ops-dashboard/logs:/app/logs
+      - ./internal-ops-dashboard/data:/app/data
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
@@ -30,7 +81,7 @@ services:
 
   frontend:
     build:
-      context: .
+      context: ./internal-ops-dashboard
       dockerfile: Dockerfile.frontend
     ports:
       - "8501:8501"
