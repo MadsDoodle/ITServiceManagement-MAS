@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-from frontend.services.api_client import get_metric_history, get_metrics
+from services.api_client import get_metric_history, get_metrics
 
 
 def render():

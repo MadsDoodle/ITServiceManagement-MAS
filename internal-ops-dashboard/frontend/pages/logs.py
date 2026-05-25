@@ -1,7 +1,7 @@
 import streamlit as st
 
-from frontend.components.log_viewer import render_log_viewer
-from frontend.services.api_client import get_logs
+from components.log_viewer import render_log_viewer
+from services.api_client import get_logs
 
 
 def render():

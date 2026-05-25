@@ -1,6 +1,6 @@
 import streamlit as st
 
-from frontend.services.api_client import get_health
+from services.api_client import get_health
 
 
 def render_navbar():

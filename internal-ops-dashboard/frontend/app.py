@@ -8,8 +8,8 @@ st.set_page_config(
 )
 
 # Import after page config
-from frontend.components.navbar import render_navbar  # noqa: E402
-from frontend.pages import dashboard, deployments, incidents, logs, metrics  # noqa: E402
+from components.navbar import render_navbar  # noqa: E402
+from pages import dashboard, deployments, incidents, logs, metrics  # noqa: E402
 
 render_navbar()
 

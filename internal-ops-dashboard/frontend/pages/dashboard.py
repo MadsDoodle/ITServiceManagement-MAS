@@ -1,15 +1,15 @@
 import streamlit as st
 
-from frontend.components.alert_banner import render_alert_banner
-from frontend.components.status_cards import render_service_cards
-from frontend.services.api_client import (
+from components.alert_banner import render_alert_banner
+from components.status_cards import render_service_cards
+from services.api_client import (
     get_health,
     get_incidents,
     get_latest_deployment,
     get_metrics,
     get_services,
 )
-from frontend.utils.formatting import format_status, time_since
+from utils.formatting import format_status, time_since
 
 
 def render():

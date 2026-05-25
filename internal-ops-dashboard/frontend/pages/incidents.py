@@ -1,7 +1,7 @@
 import streamlit as st
 
-from frontend.services.api_client import create_incident, get_incidents, update_incident
-from frontend.utils.formatting import format_severity, format_status, format_timestamp
+from services.api_client import create_incident, get_incidents, update_incident
+from utils.formatting import format_severity, format_status, format_timestamp
 
 
 def render():
