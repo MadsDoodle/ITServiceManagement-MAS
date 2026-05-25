@@ -1,0 +1,29 @@
+{
+  "_comment": "Reference payload used by ITSM integration tests. Not loaded at runtime — db/seed.py owns live data.",
+  "mock_incidents": [
+    {
+      "title": "Auth service returning 500 errors",
+      "severity": "high",
+      "status": "resolved",
+      "affected_service": "auth-service",
+      "commit_ref": "e4f5g6h",
+      "notes": "JWT secret misconfiguration post v1.1.0"
+    },
+    {
+      "title": "Database connection pool exhausted",
+      "severity": "critical",
+      "status": "resolved",
+      "affected_service": "database",
+      "commit_ref": "i7j8k9l",
+      "notes": "Triggered by failed DB migration in dep-003"
+    },
+    {
+      "title": "Auth service elevated latency",
+      "severity": "high",
+      "status": "investigating",
+      "affected_service": "auth-service",
+      "commit_ref": "q3r4s5t",
+      "notes": "Post v1.3.0 rollback — latency still elevated"
+    }
+  ]
+}

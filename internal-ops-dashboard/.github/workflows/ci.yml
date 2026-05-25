@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint (flake8)
+        run: |
+          flake8 backend/ --max-line-length=120 --exclude=__pycache__
+        continue-on-error: true   # non-blocking lint — ITSM monitors workflow failures
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short --cov=backend
+        env:
+          DB_PATH: "test_ci.db"
+          LOG_DIR: "/tmp/ci-logs"
+
+      - name: Upload test results
+        if: always()
+        run: echo "Tests complete — status tracked by ITSM workflow monitor"

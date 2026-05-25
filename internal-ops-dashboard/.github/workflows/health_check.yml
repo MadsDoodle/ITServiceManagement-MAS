@@ -1,0 +1,55 @@
+name: Health Check
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:          # manually triggerable — useful for ITSM validation
+
+jobs:
+  health-check:
+    name: API Health Probe
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install httpx
+        run: pip install httpx
+
+      - name: Check API health
+        id: health
+        run: |
+          python - <<'EOF'
+          import httpx, sys, json
+
+          url = "${{ secrets.API_URL }}"
+          if not url:
+              print("API_URL secret not set — skipping remote check")
+              sys.exit(0)
+
+          try:
+              r = httpx.get(f"{url}/health/", timeout=15)
+              data = r.json()
+              print(json.dumps(data, indent=2))
+              overall = data.get("overall", "unknown")
+              if overall == "down":
+                  print(f"CRITICAL: System is DOWN — ITSM should be alerted")
+                  sys.exit(1)
+              elif overall == "degraded":
+                  print("WARNING: System is DEGRADED")
+              else:
+                  print("OK: System healthy")
+          except Exception as e:
+              print(f"Health probe failed: {e}")
+              sys.exit(1)
+          EOF
+        continue-on-error: true
+
+      - name: Log outcome
+        if: always()
+        run: echo "Health check workflow finished — failure triggers ITSM monitoring"

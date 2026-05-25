@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      ENV: development
+      DEBUG: "true"
+      DB_PATH: /app/data/ops_dashboard.db
+      LOG_DIR: /app/logs
+      API_KEY: dev-secret-key-123
+      # --- Failure simulation flags (flip to test ITSM) ---
+      SIMULATE_LATENCY: "false"
+      SIMULATE_FAILURES: "false"
+      LATENCY_MS: "2000"
+      FAILURE_RATE: "0.3"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8501:8501"
+    environment:
+      API_BASE_URL: http://backend:8000
+      API_KEY: dev-secret-key-123
+    depends_on:
+      - backend
+    restart: unless-stopped
