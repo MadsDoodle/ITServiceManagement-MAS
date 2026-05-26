@@ -50,6 +50,16 @@ async def patch_service(service_name: str, status: str, notes: str = None, db: S
     valid = {"healthy", "degraded", "down"}
     if status not in valid:
         raise HTTPException(status_code=400, detail=f"status must be one of {valid}")
-    result = update_service_status(db, service_name, status, notes)
-    log_structured(app_logger, "warning", "service_status_override", service=service_name, status=status)
+    # Sanitize notes — strip anything that could cause DB or serialization issues
+    safe_notes = None
+    if notes is not None:
+        safe_notes = notes.encode("ascii", errors="ignore").decode("ascii").strip()[:255] or None
+    try:
+        result = update_service_status(db, service_name, status, safe_notes)
+    except Exception as exc:
+        log_structured(app_logger, "error", "service_status_override_failed",
+                       service=service_name, error=str(exc))
+        raise HTTPException(status_code=500, detail=f"Failed to update service status: {exc}")
+    log_structured(app_logger, "warning", "service_status_override",
+                   service=service_name, status=status)
     return result

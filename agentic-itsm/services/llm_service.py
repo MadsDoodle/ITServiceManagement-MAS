@@ -89,6 +89,7 @@ def perform_rca(
     logs: list[dict],
     deployments: list[dict],
     metrics: dict,
+    historical_context: str = "",
 ) -> dict:
     """
     Ask the LLM to reason about root cause.
@@ -96,17 +97,18 @@ def perform_rca(
     """
     try:
         system = _load_prompt("rca_prompt.txt")
-        # Trim logs to last 50 to keep context manageable
         trimmed_logs = logs[-50:] if len(logs) > 50 else logs
-        user_data = json.dumps({
-            "anomalies":        anomalies,
-            "recent_logs":      trimmed_logs,
-            "recent_deployments": deployments[:5],
-            "metrics":          metrics,
-        }, indent=2)
+        user_payload: dict = {
+            "anomalies":            anomalies,
+            "recent_logs":          trimmed_logs,
+            "recent_deployments":   deployments[:5],
+            "metrics":              metrics,
+        }
+        if historical_context:
+            user_payload["historical_context"] = historical_context
+        user_data = json.dumps(user_payload, indent=2)
         raw = chat_completion(system, user_data, temperature=0.3)
         result = _parse_json_response(raw)
-        # Find correlated deployment if commit_ref mentioned
         correlated = None
         commit = result.get("correlated_commit_ref")
         if commit:
@@ -114,9 +116,9 @@ def perform_rca(
                 (d for d in deployments if d.get("commit_ref") == commit), None
             )
         return {
-            "root_cause_summary":   result.get("root_cause_summary", "Root cause could not be determined."),
+            "root_cause_summary":    result.get("root_cause_summary", "Root cause could not be determined."),
             "correlated_deployment": correlated,
-            "reasoning":            result.get("reasoning", ""),
+            "reasoning":             result.get("reasoning", ""),
         }
     except Exception as exc:
         log_event(workflow_logger, "warning", "llm_rca_fallback", error=str(exc))

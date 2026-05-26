@@ -9,7 +9,7 @@ langchain-core==0.3.25
 # OpenAI
 openai==1.57.0
 
-# FastAPI (if exposing a REST API for the dashboard)
+# FastAPI (optional REST API)
 fastapi==0.115.5
 uvicorn[standard]==0.32.1
 

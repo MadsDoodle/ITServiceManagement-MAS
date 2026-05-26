@@ -19,10 +19,10 @@ def update_service_status(db: Session, service_name: str, status: str, notes: st
     if not row:
         row = ServiceStatus(service_name=service_name)
         db.add(row)
-    row.status = status
+    row.status      = status
     row.last_checked = datetime.utcnow()
     if notes is not None:
-        row.notes = notes
+        row.notes = notes[:500] if notes else notes   # guard against oversized strings
     db.commit()
     db.refresh(row)
     return _serialize(row)
@@ -55,8 +55,8 @@ def get_system_health_summary(db: Session) -> dict:
 def _serialize(row: ServiceStatus) -> dict:
     return {
         "service_name": row.service_name,
-        "status": row.status,
-        "uptime_pct": row.uptime_pct,
-        "last_checked": row.last_checked.isoformat(),
-        "notes": row.notes,
+        "status":       row.status,
+        "uptime_pct":   row.uptime_pct,
+        "last_checked": row.last_checked.isoformat() if row.last_checked else None,
+        "notes":        row.notes,
     }

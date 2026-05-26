@@ -2,124 +2,96 @@
 Agentic ITSM — main entry point.
 
 Modes:
-  python app.py              → run one workflow cycle (useful for manual testing)
+  python app.py              → single detection + open incident refresh
   python app.py --loop       → continuous monitoring loop
-  python app.py --once       → alias for single run (same as default)
-  python app.py --simulate   → inject a simulated failure, then run workflow
+  python app.py --simulate   → inject a failure, then run
+  python app.py --dashboard  → start the Streamlit dashboard
 
 The loop polls the internal-ops-dashboard every POLL_INTERVAL_SECONDS,
 runs the LangGraph incident workflow when anomalies are detected,
-and persists each run to the local SQLite state DB.
+and continuously re-evaluates open incidents.
 """
 from __future__ import annotations
 
 import argparse
-import signal
+import subprocess
 import sys
 import time
 
-import httpx
-
-from dashboard.services.dashboard_api import init_state_db, save_workflow_run
+from state.persistent_store import init_db
 from utils.config import config
 from utils.logger import log_event, workflow_logger
-from workflows.incident_workflow import run_incident_workflow
-
-_running = True
-
-
-def _signal_handler(sig, frame):
-    global _running
-    log_event(workflow_logger, "info", "shutdown_signal_received")
-    _running = False
-
-
-def _simulate_failure():
-    """Hit the crash endpoint on the monitored system to trigger a detectable failure."""
-    try:
-        url = f"{config.OPS_DASHBOARD_URL}/simulate/crash"
-        httpx.get(url, timeout=5)
-    except Exception:
-        pass  # 500 expected
-    log_event(workflow_logger, "info", "failure_simulation_triggered")
-
-
-def run_once() -> dict:
-    """Execute a single workflow cycle and persist the result."""
-    log_event(workflow_logger, "info", "workflow_cycle_start")
-    state = run_incident_workflow()
-    save_workflow_run(dict(state))
-    log_event(
-        workflow_logger, "info", "workflow_cycle_end",
-        incident_id=state.get("incident_id"),
-        anomalies=len(state.get("anomalies", [])),
-        severity=state.get("severity"),
-        escalated=state.get("escalation_required"),
-        github_issue=state.get("github_issue_number"),
-    )
-    return dict(state)
-
-
-def run_loop():
-    """Continuously poll and run the workflow on each cycle."""
-    signal.signal(signal.SIGINT, _signal_handler)
-    signal.signal(signal.SIGTERM, _signal_handler)
-
-    log_event(
-        workflow_logger, "info", "monitoring_loop_started",
-        poll_interval_seconds=config.POLL_INTERVAL_SECONDS,
-        target=config.OPS_DASHBOARD_URL,
-    )
-
-    while _running:
-        try:
-            run_once()
-        except Exception as exc:
-            log_event(workflow_logger, "error", "workflow_cycle_error", error=str(exc))
-
-        if _running:
-            log_event(
-                workflow_logger, "info", "sleeping",
-                seconds=config.POLL_INTERVAL_SECONDS,
-            )
-            # Sleep in 1s increments to allow clean shutdown
-            for _ in range(config.POLL_INTERVAL_SECONDS):
-                if not _running:
-                    break
-                time.sleep(1)
-
-    log_event(workflow_logger, "info", "monitoring_loop_stopped")
 
 
 def main():
-    init_state_db()
+    init_db()
 
     parser = argparse.ArgumentParser(description="Agentic ITSM Platform")
-    parser.add_argument("--loop",     action="store_true", help="Run continuous monitoring loop")
-    parser.add_argument("--once",     action="store_true", help="Run a single workflow cycle")
-    parser.add_argument("--simulate", action="store_true", help="Inject a failure before running")
+    parser.add_argument("--loop",      action="store_true",
+                        help="Run continuous monitoring loop")
+    parser.add_argument("--once",      action="store_true",
+                        help="Run a single detection + refresh cycle")
+    parser.add_argument("--simulate",  action="store_true",
+                        help="Inject a failure before running")
+    parser.add_argument("--dashboard", action="store_true",
+                        help="Start the Streamlit dashboard")
+    parser.add_argument("--api",       action="store_true",
+                        help="Start the FastAPI SSE sidecar")
     args = parser.parse_args()
 
+    if args.dashboard:
+        _start_dashboard()
+        return
+
+    if args.api:
+        _start_api()
+        return
+
     if args.simulate:
-        print("Injecting simulated failure into ops dashboard...")
-        _simulate_failure()
+        _inject_failure()
         time.sleep(2)
 
     if args.loop:
+        # Start watchdog as daemon before the loop
+        import services.watchdog_service as watchdog
+        watchdog.start()
+
+        from workflows.monitoring_loop import run_loop
         run_loop()
+
+        watchdog.stop()
     else:
-        # Default: single run
-        state = run_once()
-        print("\n" + "=" * 60)
-        print(f"Incident ID   : {state.get('incident_id')}")
-        print(f"Severity      : {state.get('severity') or 'N/A (no anomalies)'}")
-        print(f"Type          : {state.get('incident_type') or 'N/A'}")
-        print(f"Confidence    : {state.get('ai_confidence', 0):.0%}")
-        print(f"Escalated     : {state.get('escalation_required')}")
-        print(f"GitHub Issue  : {state.get('github_issue_url') or 'N/A'}")
-        print(f"Anomalies     : {len(state.get('anomalies', []))}")
-        print(f"Completed     : {state.get('completed')}")
-        print("=" * 60 + "\n")
+        from workflows.monitoring_loop import run_once
+        run_once()
+        print("Single detection cycle complete. Use --loop for continuous monitoring.")
+
+
+def _inject_failure():
+    from integrations.internal_ops.simulation_client import inject_crash
+    print("Injecting simulated failure into ops dashboard...")
+    result = inject_crash()
+    log_event(workflow_logger, "info", "failure_simulation_triggered", result=result)
+
+
+def _start_api():
+    import os
+    port = str(config.API_PORT)
+    print(f"Starting Agentic ITSM SSE/REST API on port {port}...")
+    subprocess.run([
+        sys.executable, "-m", "uvicorn", "api.app:app",
+        "--port", port, "--host", "0.0.0.0",
+    ])
+
+
+def _start_dashboard():
+    import os
+    dashboard_path = os.path.join(os.path.dirname(__file__), "dashboard", "app.py")
+    port = str(config.DASHBOARD_PORT)
+    print(f"Starting Agentic ITSM dashboard on port {port}...")
+    subprocess.run([
+        sys.executable, "-m", "streamlit", "run", dashboard_path,
+        "--server.port", port, "--server.address", "0.0.0.0",
+    ])
 
 
 if __name__ == "__main__":

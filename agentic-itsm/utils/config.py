@@ -75,6 +75,9 @@ class AgenticITSMConfig:
     STATE_DB_PATH: str = field(
         default_factory=lambda: os.getenv("STATE_DB_PATH", "agentic_itsm.db")
     )
+    CHECKPOINT_DB_PATH: str = field(
+        default_factory=lambda: os.getenv("CHECKPOINT_DB_PATH", "agentic_itsm_checkpoints.db")
+    )
 
     # ── Logging ──────────────────────────────────────────────────────────────
     LOG_DIR: str = field(
@@ -82,6 +85,47 @@ class AgenticITSMConfig:
     )
     LOG_LEVEL: str = field(
         default_factory=lambda: os.getenv("LOG_LEVEL", "INFO")
+    )
+
+    # ── Continuous monitoring ────────────────────────────────────────────────
+    MONITORING_STABILITY_SECONDS: int = field(
+        default_factory=lambda: int(os.getenv("MONITORING_STABILITY_SECONDS", "60"))
+    )
+    MONITORING_CHECK_INTERVAL: int = field(
+        default_factory=lambda: int(os.getenv("MONITORING_CHECK_INTERVAL", "30"))
+    )
+    MAX_REMEDIATION_RETRIES: int = field(
+        default_factory=lambda: int(os.getenv("MAX_REMEDIATION_RETRIES", "3"))
+    )
+
+    # ── Remediation guardrails ───────────────────────────────────────────────
+    REMEDIATION_COOLDOWN_SECONDS: int = field(
+        default_factory=lambda: int(os.getenv("REMEDIATION_COOLDOWN_SECONDS", "20"))
+    )
+    MAX_ACTIONS_PER_HOUR_PER_SERVICE: int = field(
+        default_factory=lambda: int(os.getenv("MAX_ACTIONS_PER_HOUR_PER_SERVICE", "10"))
+    )
+
+    # ── Watchdog (self-monitoring) ───────────────────────────────────────────
+    WATCHDOG_STALE_SECONDS: int = field(
+        default_factory=lambda: int(os.getenv("WATCHDOG_STALE_SECONDS", "120"))
+    )
+
+    # ── Demo / observability ─────────────────────────────────────────────────
+    # When True, escalated incidents are auto-approved so the full lifecycle
+    # runs without waiting for a human. Set False for real operational use.
+    AUTO_APPROVE_ESCALATIONS: bool = field(
+        default_factory=lambda: os.getenv("AUTO_APPROVE_ESCALATIONS", "true").lower() == "true"
+    )
+    # Seconds to pause between lifecycle stage transitions so GitHub board
+    # column changes are visibly observable.
+    STAGE_TRANSITION_DELAY_SECONDS: int = field(
+        default_factory=lambda: int(os.getenv("STAGE_TRANSITION_DELAY_SECONDS", "10"))
+    )
+
+    # ── FastAPI sidecar ──────────────────────────────────────────────────────
+    API_PORT: int = field(
+        default_factory=lambda: int(os.getenv("API_PORT", "8503"))
     )
 
     # ── Dashboard ────────────────────────────────────────────────────────────

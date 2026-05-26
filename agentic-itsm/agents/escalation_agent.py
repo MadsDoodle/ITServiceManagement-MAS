@@ -1,7 +1,12 @@
 """
-Escalation Agent — fully deterministic rule-based evaluation.
-Decides whether human escalation is required based on operational risk factors.
-No LLM involved — escalation logic must be predictable and auditable.
+Escalation Agent — deterministic rule-based evaluation.
+
+When AUTO_APPROVE_ESCALATIONS=true (default for demo), escalated incidents
+are automatically approved so the full lifecycle (remediation → monitoring →
+resolved) runs without waiting for manual human input.
+
+Set AUTO_APPROVE_ESCALATIONS=false for real operational use — escalated
+incidents will pause at the Human Review Queue instead.
 """
 from __future__ import annotations
 
@@ -12,9 +17,6 @@ from utils.logger import log_event, workflow_logger
 
 AGENT_NAME = "EscalationAgent"
 
-# ── Escalation rules ─────────────────────────────────────────────────────────
-# Each rule is a (reason_string, predicate) pair.
-# A single match triggers escalation.
 
 def _get_rules(state: IncidentState):
     return [
@@ -55,11 +57,6 @@ def _get_rules(state: IncidentState):
 
 
 def run(state: IncidentState) -> IncidentState:
-    """
-    LangGraph node function.
-    Reads:  severity, ai_confidence, anomalies, correlated_deployment, raw_health, incident_type
-    Writes: escalation_required, escalation_reasons
-    """
     log_event(workflow_logger, "info", "agent_start", agent=AGENT_NAME)
 
     triggered_reasons: list[str] = []
@@ -68,22 +65,42 @@ def run(state: IncidentState) -> IncidentState:
             if predicate(state):
                 triggered_reasons.append(reason)
         except Exception as exc:
-            log_event(workflow_logger, "warning", "escalation_rule_error", reason=reason, error=str(exc))
+            log_event(workflow_logger, "warning", "escalation_rule_error",
+                      reason=reason, error=str(exc))
 
     escalation_required = len(triggered_reasons) > 0
     state["escalation_required"] = escalation_required
     state["escalation_reasons"]  = triggered_reasons
 
+    if escalation_required or state.get("force_human_review"):
+        if config.AUTO_APPROVE_ESCALATIONS and not state.get("force_human_review"):
+            state["human_approved"]          = True
+            state["paused_for_human_review"] = False
+            state["lifecycle_stage"]         = "fix_in_progress"
+            log_event(workflow_logger, "info", "escalation_auto_approved",
+                      agent=AGENT_NAME,
+                      rules_triggered=len(triggered_reasons),
+                      note="AUTO_APPROVE_ESCALATIONS=true — proceeding to remediation")
+        else:
+            # High-tier incident or AUTO_APPROVE off — require human
+            state["escalation_required"]     = True
+            state["human_approved"]          = None
+            state["paused_for_human_review"] = False
+            state["lifecycle_stage"]         = "awaiting_review"
+    else:
+        state["lifecycle_stage"] = "fix_in_progress"
+
     detail = (
-        f"Escalation REQUIRED — {len(triggered_reasons)} rule(s) triggered: {triggered_reasons}"
+        f"Escalation REQUIRED ({len(triggered_reasons)} rules) — "
+        f"{'auto-approved' if config.AUTO_APPROVE_ESCALATIONS else 'awaiting human review'}: "
+        f"{triggered_reasons}"
         if escalation_required
         else "No escalation required"
     )
     state = append_trace(state, AGENT_NAME, "escalation_evaluated", detail)
-    log_event(
-        workflow_logger, "info", "agent_complete",
-        agent=AGENT_NAME,
-        escalation_required=escalation_required,
-        triggered_rules=triggered_reasons,
-    )
+    log_event(workflow_logger, "info", "agent_complete",
+              agent=AGENT_NAME,
+              escalation_required=escalation_required,
+              auto_approved=config.AUTO_APPROVE_ESCALATIONS if escalation_required else None,
+              triggered_rules=triggered_reasons)
     return state
